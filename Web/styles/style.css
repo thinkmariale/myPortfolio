@@ -1,0 +1,966 @@
+@charset "utf-8";
+
+
+
+
+
+body {
+	/*background-color:#ededec;*/
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color:#FFF;
+	/*font-family: TrocchiBold;*/
+	margin: 0;
+	padding: 0;
+	color: #000;
+	height:100%;
+
+}
+
+.body_ {
+	/*background-color:#ededec;*/
+	background-image:url(../images/backL1.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-color:#c6d3d0;
+	/*font-family: TrocchiBold;*/
+	margin: 0;
+	padding: 0;
+	color: #000;
+	height:100%;
+}
+.body_1 {
+	/*background-color:#ededec;*/
+	background-image:url(../images/backL1.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-color:#c6d3d0;
+	/*font-family: TrocchiBold;*/
+	margin: 0;
+	padding: 0;
+	color: #000;
+	height:100%;
+}
+
+header {
+	color:#666666;
+	font-size:25px;
+	overflow:hidden;
+	
+
+}
+
+header a {
+	color:#4c4c4c;
+	position:relative;
+}
+
+header a:hover {
+	background:none;
+	color:#4c4c4c;
+}
+
+header h1 {
+	font-size:2em;
+	font-weight:normal;
+	letter-spacing:.1em;
+	margin:3em 0 0;
+}
+
+header h1 .subtitle {
+	color:#d6156c;
+	font-size:.45em;
+	font-weight:normal;
+	letter-spacing:.2em;
+	margin:15px 0 20px;
+	text-transform:uppercase;
+}
+.numM a:link
+{
+	color:#AFC5EA;
+}
+
+header h1 a {
+	color:rgba(255,255,255,.8);
+	
+}
+
+h2,h3,h4,h5,h6 {
+	/*font-family: TrocchiBold;*/
+
+	font-weight: normal;
+}
+
+h2 {
+	/*font-family: 'Source Sans Pro', sans-serif;*/
+	font-size:28px;
+
+	margin:0px 0px 5px 10px;
+	color:  rgb(174, 109, 190);
+	/*text-shadow: rgba(0, 0, 0, 0.2) 2px 5px 9px, rgba(255, 255, 255, 0.298039) 0px -5px 35px;*/
+}
+
+h3 {
+	color:  rgb(174, 109, 190);
+	/*text-shadow: rgba(0, 0, 0, 0.2) 2px 5px 9px, rgba(255, 255, 255, 0.298039) 0px -5px 35px;*/
+	font-size: 22px;
+	margin:0px 0px 5px 10px;
+}
+
+h3 strong,a,nav,footer,h1,h2,h3 {
+	font-weight:normal;
+}
+ h4
+{
+	margin:5px;
+	padding:0px;
+	font-size:20px;
+	color:#2c433d;
+}
+h5
+{
+	color:  rgb(174, 109, 190);
+	/*text-shadow: rgba(0, 0, 0, 0.2) 2px 5px 9px, rgba(255, 255, 255, 0.298039) 0px -5px 35px;*/
+	font-size: 17px;
+	margin:0px 0px 5px 10px;
+
+}
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+
+
+.nav1 a
+{
+	margin-top:5px;
+	margin-bottom:0px;
+	left:150px;
+}
+nav {
+	bottom: 10px;
+	left:150px;
+	margin:0 auto;
+	padding:0px;
+	position:relative;
+	text-align:center;
+	width:800px;
+	z-index:10;
+	/*font-family: TrocchiBold;*/
+	color: #80a299;
+}
+
+nav a {
+	-webkit-border-radius:2em;
+	border-radius:2em;
+	color: #80a299;
+	display:block;
+	float:left;
+	font-size:13px;
+	height:38px;
+	width:55px;
+	letter-spacing:.1em 0 2em;
+	margin:150px 20px 0px 0;
+	overflow:hidden;
+	padding:20px 0 0;
+	text-align:center;
+	/*font-family: TrocchiBold;*/
+	font-family: 'Source Sans Pro', sans-serif;
+	
+}
+
+nav a:visited {
+	color: #80a299;
+}
+
+nav a:hover {
+	background:white;
+	color:#1f2e2a;
+	border: none;
+}
+
+nav a:active {
+	color:rgb(153,0,0);
+}
+
+
+/* ~~The footer ~~ */
+.footer {
+	/*font-family: TrocchiBold;*/
+	font-family: 'Source Sans Pro', sans-serif;
+    text-align:center;
+	
+}
+
+.f_1 
+{ 
+  	text-align:center;
+	position: relative;
+	font-size:12px;
+	color:#000;
+}
+.f_2 
+{ 
+	font-size:12px;
+}
+.footer p
+{
+	display:inline;
+	
+	padding-right:10px;
+	text-align:right; 
+}
+
+
+a, a:visited {
+	
+	margin: 0;
+	padding: 0;
+	text-decoration:none;
+	/*font-family: 'Source Sans Pro', sans-serif;*/
+	/*font-family: TrocchiBold;*/
+}
+
+a:hover {
+	color:rgba(0,0,0,.6);
+}
+
+a:active {
+	color:rgb(102,102,102);
+}
+
+a img {
+	opacity:1;
+}
+
+a img:hover,ul:hover li {
+	
+	opacity:1;
+}
+
+a.moreLink {
+	font-size:110%;
+	padding:0 5px;
+}
+
+blockquote {
+	line-height:1.25;
+}
+
+cite {
+	border-bottom: 1px solid rgba(255,255,255,.25);	
+	padding-bottom: 0;
+}
+
+
+
+figure a {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	
+}
+
+figcaption {
+	background:rgba(0,0,0,.85);
+	bottom:10px;
+	box-shadow:0 0 10px rgba(0,0,0,.5);
+	color:white;
+	display:block;
+	font-size:22px;
+	left: 0;
+	padding:10px 0 5px 10px;
+	position:absolute;
+	text-align:left;
+	
+	width:100%;
+}
+
+img {
+	background:rgb(240,240,240);
+	margin-right:25px;
+}
+
+p{
+text-indent:0px;
+margin-left:15px;
+
+}
+.workList ul,.workList li{
+	margin-left:50px;
+}
+.infoAbout p {
+	text-indent:20px;
+	text-align:justify;
+	line-height:1.5em;
+	padding: 0;
+	margin: 0;
+}
+/*
+p img {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:1px solid #ccc;
+	border-radius:5px;
+	float:right;
+	margin:0 0 5px 10px;
+	padding:5px;
+}
+*/
+p a {
+	font-family: 'Source Sans Pro', sans-serif;
+	color:#AFC5EA;
+}
+
+p a:hover {
+		border-bottom: 1px solid rgba(255,255,255,.5);
+}
+
+p.linx, p.linx a {
+	font-family: 'Source Sans Pro', sans-serif;
+	/*font-family: TrocchiBold;*/
+	text-transform: uppercase;
+}
+
+ul:hover li:hover {
+	cursor:pointer !impotant;
+	opacity:1px !important;
+	
+}
+
+
+
+
+
+
+* html .clearfix {
+	height:1%;
+}
+
+
+*, *:hover, *:focus {
+	-moz-transition: background-color 0.2s linear, border-color 0.2s linear, 
+		-moz-box-shadow 0.2s ease-out, box-shadow 0.2s linear, 
+		color 0.2s linear, text-shadow 0.2s linear, -moz-transform 0.2s linear, opacity .25s ease-in-out;	
+	-webkit-transition: background-color 0.2s linear, border-color 0.2s linear, 
+		-webkit-box-shadow 0.3s  ease-out, box-shadow 0.2s linear, 
+		color 0.2s linear, text-shadow 0.2s linear, -webkit-transform 0.2s linear, opacity .25s ease-in-out;	
+	-o-transition: background-color 0.2s linear, border-color 0.2s linear, 
+		-o-box-shadow 0.2s  ease-out, box-shadow 0.2s linear, 
+		color 0.2s linear, text-shadow 0.2s linear, -o-transform 0.2s linear, opacity .25s ease-in-out;
+	transition: background-color 0.2s linear, border-color 0.2s linear, 
+		box-shadow 0.2s  ease-out, color 0.2s linear, text-shadow 0.2s linear, transform 0.2s linear, opacity .25s ease-in-out;	
+}
+
+
+.infoAbout
+{
+	margin:40px;
+	padding:40px;
+	float:left;
+	
+	text-align:left;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	Border-radius:10px;
+	height:20%;
+	
+	text-align:left;
+    display:block;
+}
+
+.infoAbout p
+{
+	font-size:15px;
+	text-indent:50px;
+	text-align:justify;
+	font-style:normal;
+}
+.infoAbout h1{
+	color:#333;	
+}
+.infoAbout h2
+{
+	/*color:rgba(246,71,47,.7);*/
+	 color:  rgb(174, 109, 190);
+	/* text-shadow: rgba(0, 0, 0, 0.2) 2px 5px 9px, rgba(255, 255, 255, 0.298039) 0px -5px 35px;*/
+	font-size:25px;
+}
+.infoAbout h3
+{
+	/*color:rgba(255,165,0,.7);*/
+	 color:  rgb(174, 109, 190);
+	/* text-shadow: rgba(0, 0, 0, 0.2) 2px 5px 9px, rgba(255, 255, 255, 0.298039) 0px -5px 35px;*/
+	font-size:20px;
+}
+.infoAbout a
+{
+	color:rgba(246,71,47,.7);
+	font-style:italic;
+}
+.infoAbout a:hover
+{
+	color:rgba(255,165,0,.7);
+	font-style:italic;
+}
+.infoInt
+{
+	margin:10px;
+	padding:40px;
+	float:left;
+	
+	text-align:left;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	Border-radius:10px;
+	
+	
+	text-align:left;
+    display:block;
+}
+
+.infoInt p
+{
+	font-size:15px;
+	text-indent:50px;
+	text-align:justify;
+	font-style:normal;
+}
+.videoInfo
+{
+	margin:10px 0px 0px 20px;
+    width:90%;
+	text-align:left;
+	display:block;
+}
+
+#vd
+{
+	background-color:#00FFFF;
+	float:left;
+	width:50%;
+	
+}
+.inter
+{
+	color:rgba(246,71,47,.7);
+}
+#vdInfo
+{
+	background-color:#966;
+	float:right;
+	width:30%;
+}
+.videoInfo p
+{
+	font-size:14px;
+	text-align:justify;
+	font-style:normal;
+}
+.contact p
+{
+	color: #80a299;
+   font-size:20px;
+   margin-left:80px;
+   display:block;
+   text-align:left;
+}
+.contact img
+{
+	padding:0;
+	 margin:0px;
+	 float:none;
+}
+.contact h2
+{
+	color:rgba(246,71,47,.7);
+	font-size:30px;
+	
+	margin-left:100px;
+	margin-top:30px;
+}
+
+
+
+
+/* SLIDE STAGE*/
+#slideStage {
+	
+	display:block;
+
+	margin-top:10%;
+	margin-bottom:10%;
+	padding:0;
+	width:auto;
+	max-height:700px;	
+	min-height:400px;
+	font-family: 'Century Gothic', sans-serif; 
+}
+
+#slideStage h3 {
+	font-size: 30px;
+}
+
+#slideStage ul {
+	 margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center
+}
+
+#slideStage ul li {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+#slideStage li {
+	
+	line-height: 1.25em;
+	list-style-type:circle;
+	margin:10px -20px ;
+	padding:0;
+	position:relative;
+}
+
+#slideStage li a {
+	width:100%;
+}
+
+#slideStage li a:hover {
+	border:none;
+}
+
+/*Portfolio*/
+#slideStage li.slideP0 {
+	border-radius:50%;
+	box-shadow:0 0 0 10px rgba(255,255,255,.25) inset, 0 0 0 100px rgba(255,255,255,.25) inset;
+	float:left;
+	height:200px !important;
+	margin:20px 45px 0 15px;
+	overflow:hidden;
+	width:200px !important;
+}
+
+#slideStage li.slideP0 a {
+	
+	display:block;
+	font-family: 'Century Gothic', sans-serif; 
+	/*color:#1f2e2a;*/
+	color:white;
+	font-size:25px;
+	
+	padding:5px 10px 0 40px;
+	position:relative;
+	text-align:center;
+	letter-spacing:2px;
+	top:80px;
+	width:115px;
+}
+
+#slideStage li.slideP0:hover {
+	box-shadow:0 0 0 10px rgba(255,255,255,.5) inset, 0 0 0 0 rgba(255,255,255,.5) inset;
+	cursor:pointer;
+}
+
+#slideStage li.slideP {
+	border-radius:50%;
+	box-shadow:0 0 0 10px rgba(255,255,255,.25) inset, 0 0 0 100px rgba(255,255,255,.25) inset;
+	float:left;
+	height:200px !important;
+	margin:20px 45px 0 15px;
+	overflow:hidden;
+	width:200px !important;
+}
+
+#slideStage li.slideP a {
+
+	display:block;
+	font-family: 'Century Gothic', sans-serif; 
+	/*font-family: TrocchiBold;*/
+	/*color:#1f2e2a;*/
+	color:white;
+	font-size:25px;
+	
+	padding:5px 10px 0 35px;
+	position:relative;
+	text-align:center;
+	letter-spacing:2px;
+	top:80px;
+	width:115px;
+}
+
+#slideStage li.slideP:hover {
+	box-shadow:0 0 0 10px rgba(255,255,255,.5) inset, 0 0 0 0 rgba(255,255,255,.5) inset;
+	cursor:pointer;
+}
+
+#slideStage li.slideP1 {
+	border-radius:50%;
+	box-shadow:0 0 0 10px rgba(255,255,255,.25) inset, 0 0 0 100px rgba(255,255,255,.25) inset;
+}
+
+#slideStage li.slideP1 a {
+	display:block;
+	 font-family: 'Source Sans Pro', sans-serif;
+	/*font-family: TrocchiBold;*/
+	/*color:#1f2e2a;*/
+	color:white;
+	font-size:25px;
+	
+	padding:5px 10px 0 25px;
+	position:relative;
+	text-align:center;
+	letter-spacing:2px;
+	top:75px;
+	width:115px;
+}
+
+#slideStage li.slideP1:hover {
+	box-shadow:0 0 0 10px rgba(255,255,255,.5) inset, 0 0 0 0 rgba(255,255,255,.5) inset;
+	cursor:pointer;
+}
+
+
+/*index*/
+#slideStage li.slide {
+	border-radius:50%;
+	box-shadow:0 0 0 10px rgba(255,255,255,.25) inset, 0 0 0 100px rgba(255,255,255,.25) inset;
+	float:left;
+	height:200px !important;
+	margin:20px 45px 0 15px;
+	overflow:hidden;
+	width:200px !important;
+}
+
+#slideStage li.slide a {
+
+	display:block;
+	font-family: 'Century Gothic', sans-serif; 
+	/*font-family: TrocchiBold;*/
+	/*color:#1f2e2a;*/
+	color:white;
+	font-size:28px;
+	
+	padding:5px 10px 0 30px;
+	position:relative;
+	text-align:center;
+	letter-spacing:2px;
+	top:75px;
+	width:115px;
+}
+
+#slideStage li.slide:hover {
+	box-shadow:0 0 0 10px rgba(255,255,255,.5) inset, 0 0 0 0 rgba(255,255,255,.5) inset;
+	cursor:pointer;
+}
+
+#slideStage li.slide1 {
+	border-radius: 50%;
+	box-shadow: 0 0 0 10px rgba(255,255,255,.25) inset, 0 0 0 100px rgba(255,255,255,.25) inset;
+	overflow:hidden;
+	
+		margin:0px 100px 0px 100px;
+}
+
+
+
+#slideStage li.slide1 a {
+	/*background:rgba(0,0,0,.75);
+	border-radius:2em;
+	box-shadow:0 0 10px rgba(0,0,0,.5);*/
+	/*font-family: TrocchiBold;*/
+	
+	font-family: 'Century Gothic', sans-serif; 
+	color: white;
+	display: block;
+	font-size: 28px;
+	left: -12px;
+	padding: 5px 10px 0 37px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	top: 65px;
+	width: 105px;
+	letter-spacing: 1px;
+}
+
+#slideStage li.slide1:hover {
+	box-shadow:0 0 0 10px rgba(255,255,255,.5) inset, 0 0 0 0 rgba(255,255,255,.5) inset;
+	cursor:pointer;
+}
+
+
+#slideStage li.slide1_, li.slide1_1 {
+	border-radius: 50%;
+	box-shadow: 0 0 0 10px rgba(255,255,255,.25) inset, 0 0 0 100px rgba(255,255,255,.25) inset;
+	height:200px !important;
+	margin:0px 15px 0px 0px;
+	overflow:hidden;
+	width:200px !important;
+
+}
+#slideStage li.slide2_ {
+	border-radius: 50%;
+	box-shadow: 0 0 0 10px rgba(255,255,255,.25) inset, 0 0 0 100px rgba(255,255,255,.25) inset;
+	height:200px !important;
+	margin:0px 15px 0px 0px;
+	overflow:hidden;
+	width:200px !important;
+
+}
+#slideStage li.slide1_ a {
+	font-family: 'Century Gothic', sans-serif; 
+	color: white;
+	display: block;
+	font-size: 28px;
+	left: -13px;
+	padding: 10px 10px 0 37px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	top: 50px;
+	width: 105px;
+	letter-spacing: 1px;
+}
+#slideStage li.slide1_1 a {
+	font-family: 'Century Gothic', sans-serif; 
+	color: white;
+	display: block;
+	font-size: 28px;
+	left: -20px;
+	padding: 10px 10px 0 37px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	top: 50px;
+	width: 105px;
+	letter-spacing: 1px;
+}
+#slideStage li.slide1_:hover,li.slide1_1:hover {
+	box-shadow:0 0 0 10px rgba(255,255,255,.5) inset, 0 0 0 0 rgba(255,255,255,.5) inset;
+	cursor:pointer;
+	
+}
+
+#slideStage li.slide2_ a {
+	/*background:rgba(0,0,0,.75);
+	border-radius:2em;
+	box-shadow:0 0 10px rgba(0,0,0,.5);*/
+	/*font-family: TrocchiBold;*/
+	font-family: 'Century Gothic', sans-serif; 
+	color: white;
+	display: block;
+	font-size: 28px;
+	left: -13px;
+	padding: 10px 10px 0 37px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	top: 10px;
+	width: 105px;
+	letter-spacing: 1px;
+}
+
+#slideStage li.slide2_:hover {
+	box-shadow:0 0 0 10px rgba(255,255,255,.5) inset, 0 0 0 0 rgba(255,255,255,.5) inset;
+	cursor:pointer;
+}
+
+
+#slideStage li.slide2:hover {
+	box-shadow:0 0 0 10px rgba(255,255,255,.5) inset, 0 0 0 0 rgba(255,255,255,.5) inset;
+	cursor:pointer;
+}
+#slideStage li.slide2 {
+	border-radius:50%;
+	box-shadow:0 0 0 10px rgba(255,255,255,.25) inset, 0 0 0 100px rgba(255,255,255,.25) inset;
+	float:left;
+	height:200px !important;
+	margin:20px 45px 0 15px;
+	overflow:hidden;
+	width:200px !important;
+}
+
+#slideStage li.slide2 a {
+	
+	display:block;
+	 font-family: 'Source Sans Pro', sans-serif;
+	/*font-family: TrocchiBold;*/
+	color:white;
+	font-size:28px;
+	padding:5px 10px 0 20px;
+	position:relative;
+	text-align:center;	
+	top:75px;
+	width:115px;
+	letter-spacing:1px;
+	
+}
+
+#slideStage li.slide2:hover {
+	box-shadow:0 0 0 10px rgba(255,255,255,.5) inset, 0 0 0 0 rgba(255,255,255,.5) inset;
+	cursor:pointer;
+}
+
+
+
+
+
+
+/* SLIDER */
+
+#slider {
+	margin:auto;
+	padding:0;
+}
+
+
+#slider #portafolioSlide01a {
+	background-color:rgba(0,205,0,.7);
+	
+}
+#slider #portafolioSlide02a {
+
+	background-color:rgba(246,20,47,.8);
+}
+#slider #portafolioSlide03a {
+	
+	background-color:rgba(255,165,0,.7);
+}
+#slider #portafolioSlide04a {
+	
+	background-color:rgba(0, 168, 228,.7);
+}
+
+
+
+#slider #indexSlide01a {
+	background-color: rgba(255,165,0,.7);
+	/*left: 38.5%;*/
+	/*left:43.5% ;*/
+	display:block;
+	margin: 0 auto;
+	height: 150px !important;
+	overflow: hidden;
+	width: 150px !important;
+	
+	
+}
+#slider #indexSlide01a a{
+	top:50px;
+}
+
+#slider #indexSlide02a {
+
+	background-color:rgba(238,238,0,.9);
+	
+	height:135px !important;
+	overflow:hidden;
+	width:135px !important;
+	
+	 display: inline-block;
+  *display: inline; zoom: 1; /* IE7 inline-block hack */
+  line-height: normal; /* If left out, the line-height of .block will be inherited - by the parent (500px) in this case */
+  vertical-align: middle; /* This vertically centers inline-level elements */
+	
+}
+
+#slider #indexSlide03a {
+	background-color:rgba(246,20,47,.9);
+	/*left:36%;*/
+	height:150px !important;
+	
+	overflow:hidden;
+	width:150px !important;
+	 display: inline-block;
+  *display: inline; zoom: 1; /* IE7 inline-block hack */
+  line-height: normal; /* If left out, the line-height of .block will be inherited - by the parent (500px) in this case */
+  vertical-align: middle; /* This vertically centers inline-level elements */
+}
+#slider #indexSlide04a {
+	background-color: rgba(0,215,0,.7);
+	
+	display: block;
+	height: 150px !important;
+	overflow: hidden;
+	
+	width: 150px !important;
+	 display: inline-block;
+  *display: inline; zoom: 1; /* IE7 inline-block hack */
+  line-height: normal; /* If left out, the line-height of .block will be inherited - by the parent (500px) in this case */
+  vertical-align: middle; /* This vertically centers inline-level elements */
+	
+	position:relative;
+}
+
+#slider #indexSlide05a {
+	background-color:rgba(0, 168, 228,.7);
+	/*left:47%;*/
+	height:135px !important;
+	overflow:hidden;
+	width:135px !important;
+
+	  display: inline-block;
+  *display: inline; zoom: 1; /* IE7 inline-block hack */
+  line-height: normal; /* If left out, the line-height of .block will be inherited - by the parent (500px) in this case */
+  vertical-align: middle; /* This vertically centers inline-level elements */
+
+}
+
+.popSlide li, ul {
+	font-size:13px;
+	
+	font-style:normal;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding:0;
+	margin: 0;
+}
+
+/*-----*/
+
+.spinner {
+  margin: 40px auto 0;
+  width: 70px;
+  text-align: center;
+}
+
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: rgb(174, 109, 190);
+
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+  animation: bouncedelay 1.4s infinite ease-in-out;
+  /* Prevent first frame from flickering when animation starts */
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0.0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bouncedelay {
+  0%, 80%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 40% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
