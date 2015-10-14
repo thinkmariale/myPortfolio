@@ -15,6 +15,8 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/styles.css" type="text/css" rel="stylesheet" />
 
+   
+
 </head>
 <body>
   <header id ="header">
@@ -28,9 +30,9 @@
       <div id="top-nav">
 
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Work</a></li>
+        <li><a href="#" id="work_">Work</a></li>
         <li><a href="#">Featured</a></li>
-        <li><a href="#">Abou</a></li>
+        <li><a href="#">About</a></li>
         <li><a href="#">CV</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
@@ -46,57 +48,10 @@
 
   </header>
   <!--   Icon Section   -->
-  <div class="container con_">
-    <div class="section">
-      <div class="row">
-
-         <div class="col s12 m4">
-          <div class="icon-block z-depth-1">
-            <img src="images/8.jpg" class="responsive-img">
-            <h5 class="center">User Experience Focused</h5>
-            <p class="light">By utilizing elements and principles .</p>
-          </div>
-        </div>
-         <div class="col s12 m4">
-          <div class="icon-block z-depth-1">
-            <img src="images/9.jpg" class="responsive-img">
-            <h5 class="center">User Experience Focused</h5>
-            <p class="light">By utilizing elements and principles .</p>
-          </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="icon-block z-depth-1">
-            <img src="images/10.jpg" class="responsive-img">
-            <h5 class="center">User Experience Focused</h5>
-            <p class="light">By utilizing elements and principles .</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block z-depth-1">
-            <img src="images/11.jpg" class="responsive-img">
-            <h5 class="center">User Experience Focused</h5>
-            <p class="light">By utilizing elements and principles .</p>
-          </div>
-        </div>
-         <div class="col s12 m4">
-          <div class="icon-block z-depth-1">
-            <img src="images/12.jpg" class="responsive-img">
-            <h5 class="center">User Experience Focused</h5>
-            <p class="light">By utilizing elements and principles .</p>
-          </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="icon-block z-depth-1">
-            <img src="images/13.jpg" class="responsive-img">
-            <h5 class="center">User Experience Focused</h5>
-            <p class="light">By utilizing elements and principles .</p>
-          </div>
-        </div>
-    </div>
-         
+  <div class="container" id="body">
+    
       
-    </div>                  
+                    
   </div>
 
     <br><br>
@@ -104,13 +59,13 @@
   </div>
 
  <!--   Footer Section   -->
-  <footer class="page-footer orange">
+  <footer class="page-footer  teal lighten-4">
     <div class="container">
       <div class="row">
         <div class="col l8 s12">
           <h5 class="white-text">About Me</h5>
-          <p class="grey-text text-lighten-4">A girl that is in love with programming and uses it as a mean of art.</p>
-          
+          <p>
+            A girl that is in love with programming and uses it as a mean of art.</p>
           <a href="#">Master of Entertainment Technology <br>
             at Carnegie Mellon University </a>
 
@@ -118,7 +73,7 @@
         <div class="col l3 s12">
           <h5 class="white-text">Get in Touch</h5>
           <ul>
-            <li> <i class="fa fa-gamepad fa-lg"></i>
+            <li> <i class="fa fa-gamepad fa-lg "></i>
               <a href="images/MariaMontenegroResume.pdf" title="Resume" target="_blank">Resume</a></li>
             <li> <i class="fa fa-envelope"></i>
               <a href="mailto:maria.alejandra@fusion-sky.com" title="Email">Email</a></li>
@@ -146,16 +101,41 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="orange-text text-lighten-3" href="http://ThinkMariale.com">ThinkMariale</a>
+      <p>Made by <a href="http://ThinkMariale.com">ThinkMariale</a>
+        © 2015. All Right Reserved </p>
       </div>
     </div>
   </footer>
 
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>  
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/mainController.js"></script>
+  <script type="text/javascript">
+     $(document).ready(function(){
+       console.log("ready");
+          $("#body").load("work.html")
+           $("#work_").click(function(){
+               $("#body").load("work.html");
+           });
+
+          if (typeof pgController === 'undefined'){
+            console.log("loading pgController");
+            pgController = new pageController();
+          }
+      });
+
+     function setProject(pp){
+       pgController.loadPage({load:"default.html", call:pp });
+     }
+
+  </script>
+ 
+  <!-- Include Jquery here in a script tag -->
+   
  <!-- Icons -->
  <link rel="stylesheet" href="scripts/fontawesome/css/font-awesome.min.css"> 
   </body>

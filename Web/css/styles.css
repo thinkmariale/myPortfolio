@@ -10,16 +10,32 @@
  	padding-top: 20px;
  }
  #logo a{
- 	color: #000000;
+ 	color: #aeea00;
  	padding-top: 20px;
  }
 
  #top-nav {
  	float: right;
     width: 60%;
+    height: 100%;
     padding-top: 20px;
  }
+#top-nav ul {
+	height: 100%;
+}
 
+#top-nav ul a{
+	color: #4DBCE9;
+	 height: 100%;
+}
+
+#top-nav ul a:hover{
+	 color: #aeea00;
+}
+#top-nav ul li:hover{
+	 background-color: #4DBCE9;
+	 height: 100%;
+}
 
 @media only screen and (min-width : 301px) {
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
@@ -28,12 +44,7 @@
   .navbar-fixed {
     height: 64px; } }
 
-#top-nav ul a{
-	 color: #000000;
-}
-#top-nav  a{
-	 color: #000000;
-}
+
 #menu {
 	font-size: 20px;
 	font-family: arial;
@@ -54,3 +65,52 @@
 	margin-right: auto;
 }
 
+/*------
+------- */
+.small_img{
+	margin: 10px;
+}
+
+.project_info {
+	width: 30%;
+	padding-right: 20px;
+	float:left;
+	text-align: right;
+	
+  border-right: 5px solid #B2DFDB; 
+}
+
+.video_info{
+	margin-top:80px;
+	text-align: center;
+}
+/*------
+------- */
+h3 {
+	color: #00897B;
+}
+.page-footer {
+	color: #607D8B;
+}
+.page-footer ul i{
+	padding-left: 10px;
+}
+.footer-copyright a{
+	color: #607D8B;
+}
+.footer-copyright p {
+	color:white;
+	margin: 0;
+	padding: 0;
+
+}
+.page-footer p {
+	font-size: 18px;
+	color:white;
+}
+.page-footer a{
+	color: #607D8B;
+}
+.page-footer a:hover{
+	color: #90A4AE;
+}
