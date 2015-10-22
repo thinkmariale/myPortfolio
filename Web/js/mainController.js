@@ -5,7 +5,11 @@ function pageController(){
 	function setPage(project){ 
  		$("#project_title").text (project.title);
 		$("#project_info").text (project.content);
-
+		$("#img1").attr("src",project.image1);
+		$("#img2").attr("src", project.image2);
+		$("#img3").attr("src", project.image3);
+		$("#video_content").attr("src", project.video);
+		$("#img4").attr("src", project.image4);
 	}
 
 	function class2(){
@@ -26,6 +30,9 @@ function pageController(){
 		    	break;
 		    case "maze_heart":
 		    	project = new maze_of_heart();
+		    	break;
+		     case "kinect_fun":
+		    	project = new kinect_fun();
 		    	break;
 		    default:
 		        break;

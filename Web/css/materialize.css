@@ -5753,7 +5753,7 @@ small {
     position: absolute;
     bottom: 0;
     height: 2px;
-    background-color: #f6b2b5;
+    background-color: #B6DED2;/*#B6DED2;*/
     will-change: left, right; }
 
 .tabs .tab {
