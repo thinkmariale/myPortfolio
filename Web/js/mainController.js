@@ -9,7 +9,11 @@ function pageController(){
 		$("#img2").attr("src", project.image2);
 		$("#img3").attr("src", project.image3);
 		$("#video_content").attr("src", project.video);
-		$("#img4").attr("src", project.image4);
+		$("#project_content").html (project.mainContent);
+		if(project.image4 == 'none'){
+			$("#img4").hide();
+		}
+		else { $("#img4").attr("src", project.image4);}
 	}
 
 	function class2(){

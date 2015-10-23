@@ -79,17 +79,23 @@
 }
 .med_img {
 	margin: 10px;
-	width: 400px;
+	width: 500px;
 }
 .project_info {
 	width: 30%;
 	padding-right: 20px;
 	float:left;
 	text-align: right;
-	
-  border-right: 5px solid #B2DFDB; 
+	border-right: 5px solid #B2DFDB; 
 }
 
+#project_content {
+	text-align: left;
+	width: 70%;
+	margin:0 auto 0 auto;
+	font-size: 18px;
+	text-align:justify;
+}
 .video_info{
 	margin-top:80px;
 	text-align: center;
