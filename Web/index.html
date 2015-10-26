@@ -134,6 +134,9 @@
       if(pp == 'marioneta'){
          pgController.loadPage({load:"default1.html", call:pp });
       }
+      if(pp == 'shortGames' || pp == 'kinects'){
+         pgController.loadPage({load:"defaultMult.html", call:pp });
+      }
        else {
         pgController.loadPage({load:"default.html", call:pp });
       }
