@@ -115,7 +115,7 @@ function shortGames(){
 
 function kinects() {
 	this.title = "Point Cloud Me";
-	this.content = "Inspired by the video of “point cloud dancer”.";
+	this.content = "Inspired by the video of <a target='_blank' href='https:/vimeo.com/38840688'>'point cloud dancer' </a>.";
 	this.content += "I decided to make a sound reactive point cloud to give the user some control on what would ";
 	this.content += "happen throughout the simulation.<br/>A low pitch sound, will decompose the user and ";
 	this.content += "a high pitch sound will re-generate the user.<br/>";
@@ -142,41 +142,67 @@ function kinects() {
 }
 
 function linguar() {
-this.title = "Linguar";
+	this.title = "LinguAR";
 
-	this.content = "A digital playground game for two teams of 3 players that uses the PlayStation Move Motion Controllers.<br/> "
-	this.content += "It was nominated at IndieCade 2014 as one of the 'Big Games' finalist."
-	this.mainContent = "The game consists of 3 rounds of 1 minute each. In which round both teams have to compete ";
-	this.mainContent += "to get the 'last egg'. When the game starts, the 'last egg' randomly selects one ";
-	this.mainContent += "PS Move and assigns a white light to it. This will indicate who was the egg."; 
+	this.content = "A language learning application on <a href='https://www.google.com/glass/start/' target='_blank'> Google Glass</a>.";
+	this.content += " It taking advantage of this wearable device by collecting as much data as possible from the user's daily life.";
+	this.mainContent = "The application aggregates what the users has been saying throughout the day to create what we call: 'smart categories'. ";
+    this.mainContent += "This categories consist of words related to what the user has been talking about. We use them to build a tailored ";
+    this.mainContent += "Lesson Plan for the user, which will teach the user about content we know he is interested on because he ";
+    this.mainContent += "has been talking about it throughout the day. ";
 	this.mainContent += "<br/><br/>";
-	this.mainContent += "I was one of the programmers in this team."
+	this.mainContent += "I was one of the programmers in the project, and was responsible for the data collection and the "; 
+	this.mainContent += "smart categories. Once th data was aggregated for the user, it was send to the Lesson Plan which ";
+	this.mainContent += "I also helped implement.";
 
 	this.image1 = "images/linguar/img1.jpg";
-	this.image2 = "images/linguar/img2.jpg";
+	this.image2 = "images/linguar/img2.png";
 	this.image3 = "images/linguar/img3.jpg";
 	this.image4 = "images/linguar/img4.png";
 
-	this.video = "http://player.vimeo.com/video/98692480";
+	this.video = "http://player.vimeo.com/video/114456391";
 }
 
 function floors(){
 	this.title = "Interactive Floors";
 
-	this.content = "A digital playground game for two teams of 3 players that uses the PlayStation Move Motion Controllers.<br/> "
-	this.content += "It was nominated at IndieCade 2014 as one of the 'Big Games' finalist."
-	this.mainContent = "The game consists of 3 rounds of 1 minute each. In which round both teams have to compete ";
-	this.mainContent += "to get the 'last egg'. When the game starts, the 'last egg' randomly selects one ";
-	this.mainContent += "PS Move and assigns a white light to it. This will indicate who was the egg."; 
-	this.mainContent += "<br/><br/>";
-	this.mainContent += "I was one of the programmers in this team."
-
+	this.content = "A set of interactive floor installation experiences done with Unity3D and OpenCV. They were ";
+	this.content += "done during my internship at <a href='http://kinesisstudio.com' target='_blank'> Kinesis Studio</a> ";
+	this.content += "and I was the technical lead for the project."
+	this.mainContent = "One of the experiences was an extension of a 'Pong Game', with 6 teams and a 25 feet tracking arena. ";
+	this.mainContent += "The second experience was a 'social floor'. The floor would show you what you had in common with other participants. ";
+	this.mainContent += "It was also a 25 feet tracking area and it hold up to 16 people."; 
+	
 	this.image1 = "images/floors/img1.jpg";
 	this.image2 = "images/floors/img2.jpg";
 	this.image3 = "images/floors/img3.jpg";
-	this.image4 = "images/floors/img4.png";
+	this.image4 = "none";
 
-	this.video = "http://player.vimeo.com/video/98692480";
+	this.video = "http://player.vimeo.com/video/106218476";
 }
 
+function numMission(){
+	this.title = "Number Mission";
+
+	this.content = "An interactive learning math game done with the Microsoft Kinect. ";
+	this.content += "The game has a  green theme that encourages recycling and awareness of environmental issues.";
+
+	this.mainContent = "Number Mission is targeted for 7 to 12 year old children and it was specially made to promote ";
+	this.mainContent += "learning in underdeveloped countries and economically challenged areas. ";
+	this.mainContent += "A three month HCI reseach was done prior to the development of the game. It was focused on ";
+	this.mainContent += "discovering the best ways to interact with the children. During development, playtesting was done ";
+	this.mainContent += " weekly with a local charter school to proof or disproof our implementations." 
+	this.mainContent += " <br/><br/>";
+	this.mainContent += "The game has three three difficulty levels and three mini games to help the kids improve and ";
+	this.mainContent += "at the same time feel progress by discovering a new mini game after each level.";
+	this.mainContent += " <br/><br/>Made in OpenFrameworks.";
+
+	
+	this.image1 = "images/numMission/img1.jpg";
+	this.image2 = "images/numMission/img2.jpg";
+	this.image3 = "images/numMission/img3.png";
+	this.image4 = "images/numMission/img4.jpg";
+
+	this.video = "http://player.vimeo.com/video/41059563";
+}
 

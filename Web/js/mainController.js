@@ -149,6 +149,9 @@ function pageController(){
 		    case "floors":
 		    	project = new floors();
 		    	break;
+		    case "numMission":
+		    	project = new numMission();
+		    	break;
 		    default:
 		        break;
 		}

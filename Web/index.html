@@ -136,8 +136,9 @@
       }
       if(pp == 'shortGames' || pp == 'kinects'){
          pgController.loadPage({load:"defaultMult.html", call:pp });
-      }
-       else {
+      }if(pp == 'computerGraphics'){
+        $("#body").load("graphics.html")
+      } else {
         pgController.loadPage({load:"default.html", call:pp });
       }
      }
