@@ -31,8 +31,8 @@
 
       <ul class="tabs right hide-on-med-and-down">        
         <li class="tab"><a href="#" id="work_">Work</a></li>
-        <li class="tab"><a href="#">Featured</a></li>
-        <li class="tab"><a href="#">About</a></li>
+        <li class="tab"><a href="#" >Featured</a></li>
+        <li class="tab"><a href="#" id= "about_">About</a></li>
         <li class="tab"><a href="#">CV</a></li>
         <li class="tab"><a href="#">Contact</a></li>
       </ul>
@@ -66,7 +66,7 @@
           <h5 class="white-text">About Me</h5>
           <p>
             A girl that is in love with programming and uses it as a mean of art.</p>
-          <a href="#">Master of Entertainment Technology <br>
+          <a href="http://www.cmu.edu/" target = "_blank">Master of Entertainment Technology <br>
             at Carnegie Mellon University </a>
 
         </div>
@@ -76,7 +76,7 @@
             <li> <i class="fa fa-gamepad fa-lg "></i>
               <a href="images/MariaMontenegroResume.pdf" title="Resume" target="_blank">Resume</a></li>
             <li> <i class="fa fa-envelope"></i>
-              <a href="mailto:maria.alejandra@fusion-sky.com" title="Email">Email</a></li>
+              <a href="mailto:thinkmariale@gmail.com" title="Email">Email</a></li>
            
           </ul>
         </div>
@@ -86,9 +86,9 @@
           <ul>
              <a href="https://www.linkedin.com/pub/maria-alejandra-montenegro/35/a1/672/" target="_blank">
           <i class="fa fa-linkedin-square fa-lg"></i>LinkedIn</a>
-              <a href="https://twitter.com/montem888" target="_blank">
+              <a href="https://twitter.com/thinkmariale" target="_blank">
          <i class="fa fa-twitter fa-lg"></i>Twitter</a>
-              <a href="https://github.com/mariale888" target="_blank">
+              <a href="https://github.com/thinkmariale" target="_blank">
          <i class="fa fa-github-square fa-lg" target="_blank"></i>GitHub</a>
               <a href="https://vimeo.com/user11450827" target="_blank">
           <i class="fa fa-vimeo-square fa-lg"></i>Vimeo</a>
@@ -123,7 +123,9 @@
            $("#work_").click(function(){
                $("#body").load("work.html");
            });
-
+           $("#about_").click(function(){
+               $("#body").load("about.html");
+           });
           if (typeof pgController === 'undefined'){
             console.log("loading pgController");
             pgController = new pageController();

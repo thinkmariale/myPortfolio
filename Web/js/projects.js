@@ -17,18 +17,18 @@ function palmistry_ball(){
 	this.mainContent += " <br/><br/>Then, I would place the projector where I wanted it to go and place my hand under it. ";
 	this.mainContent += "I would move the mouse curser to my finger. Click, ";
 	this.mainContent += "and record the 3D point of Leap motion and the 2D point of the screen where the mouse cursor was at. ";
-	this.mainContent += " <br/><br/>This infromation was then feeded into openCV to find the final position "
+	this.mainContent += " <br/><br/>This information was then passed into openCV to find the final position "
 	this.mainContent += "of the virtual camera in the scene and translate it there.";
 	this.video = "http://player.vimeo.com/video/127358563";
 }
 
 function marioneta(){
 	this.title = "Marioneta";
-	this.content = "A puppet gesture recognition and mirroing experience done using Microsoft Kinect v2. ";
-	this.content += "It was a project for the Pittsburgh Children’s Museum and it is currently a permanently installatin.";
+	this.content = "A puppet gesture recognition and mirroring experience done using Microsoft Kinect v2. ";
+	this.content += "It was a project for the Pittsburgh Children’s Museum and it is currently a permanently installation.";
 	this.mainContent = "Marioneta's main focus is to create an endless experience in which everything in the virtual world will ";
 	this.mainContent += "react to the users actions as they become and impersonate a puppet. "
-	this.mainContent += "It was addmited into SXSW 2015 Film Festival. ";
+	this.mainContent += "It was admitted into SXSW 2015 Film Festival. ";
 	this.mainContent += "<br/><br/>";
 	this.mainContent += "I was the technical lead in this amazing project, and you can learn more about it by visiting out website:";
 	this.image1 = "images/marioneta/img1.png";
@@ -42,7 +42,7 @@ function molecap(){
 	this.title = "MoleCap VR";
 	this.content = "A new virtual reality experience utilizing Wireless Oculus Rift DK1 "
 	this.content += "and the Organic Motion Capture System. "
-	this.mainContent = "MoleCap was a reaserch project at Carnegie Mellon University. Its main purpose is ";
+	this.mainContent = "MoleCap was a research project at Carnegie Mellon University. Its main purpose is ";
 	this.mainContent += "to use the human body as the main control for the experience."; 
 	this.mainContent += "<br/><br/>";
 	this.mainContent += "How do we react in a VR world when there are no cables or walls to act as boundaries? ";
@@ -123,18 +123,18 @@ function kinects() {
 	this.video = "http://player.vimeo.com/video/50759765";
 
 	this.title_2 = "Noise Ball";
-	this.content_2 = "Noise Ball is a kinect simulation made in openFrameworks. Balls are created with different sound levels. ";
+	this.content_2 = "Noise Ball is a Kinect simulation made in openFrameworks. Balls are created with different sound levels. ";
 	this.content_2 += "The main point of this simulation is to create noise to be able to interact with the balls. ";
 	this.video_2 = "http://player.vimeo.com/video/50020490";
 
 	this.title_3 = "Multiple Me";
 	this.content_3 = "Multiple Me was inspired from the typical video editing technical of having “multiple you’s” ";
-	this.content_3 += "on the screen. I decided to make it real time with the use of the kinect! it can hold up to 20 ";
+	this.content_3 += "on the screen. I decided to make it real time with the use of the Kinect! it can hold up to 20 ";
 	this.content_3 += "different video clips. I really want to go to space, so that’s why it’s multiple me in space! ";
 	this.video_3 = "http://player.vimeo.com/video/50760404";
 
 	this.title_4 = "OpenGL Car";
-	this.content_4 = " My first Xbox kinect simulation. Made with ofxKinect drivers in OpenFrameworks. ";
+	this.content_4 = " My first Xbox Kinect simulation. Made with ofxKinect drivers in OpenFrameworks. ";
 	this.content_4 += "The scene is made up of openGL primitives and you get to drive around a boxy blue car. ";
 	this.content_4 += "Physics is fully implemented so if you hit a wall to fast, you may flip!";
 	this.video_4 = "http://player.vimeo.com/video/49884803";
@@ -152,7 +152,7 @@ function linguar() {
     this.mainContent += "has been talking about it throughout the day. ";
 	this.mainContent += "<br/><br/>";
 	this.mainContent += "I was one of the programmers in the project, and was responsible for the data collection and the "; 
-	this.mainContent += "smart categories. Once th data was aggregated for the user, it was send to the Lesson Plan which ";
+	this.mainContent += "smart categories. Once the data was aggregated for the user, it was send to the Lesson Plan which ";
 	this.mainContent += "I also helped implement.";
 
 	this.image1 = "images/linguar/img1.jpg";
@@ -189,14 +189,13 @@ function numMission(){
 
 	this.mainContent = "Number Mission is targeted for 7 to 12 year old children and it was specially made to promote ";
 	this.mainContent += "learning in underdeveloped countries and economically challenged areas. ";
-	this.mainContent += "A three month HCI reseach was done prior to the development of the game. It was focused on ";
-	this.mainContent += "discovering the best ways to interact with the children. During development, playtesting was done ";
+	this.mainContent += "A three month HCI research was done prior to the development of the game. It was focused on ";
+	this.mainContent += "discovering the best ways to interact with the children. During development, play testing was done ";
 	this.mainContent += " weekly with a local charter school to proof or disproof our implementations." 
 	this.mainContent += " <br/><br/>";
 	this.mainContent += "The game has three three difficulty levels and three mini games to help the kids improve and ";
 	this.mainContent += "at the same time feel progress by discovering a new mini game after each level.";
 	this.mainContent += " <br/><br/>Made in OpenFrameworks.";
-
 	
 	this.image1 = "images/numMission/img1.jpg";
 	this.image2 = "images/numMission/img2.jpg";

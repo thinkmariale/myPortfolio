@@ -1,3 +1,6 @@
+ body {
+ 	text-align:justify;
+ }
  #header {
  	width: 100%;
  	height: 140px;
@@ -70,19 +73,18 @@
 /*------
 ------- */
 .small_img{
-	margin: 10px;
-	width: 200px;
+	margin: 5px;
+	width: 30%
 }
 .small_img_{
 	margin: 10px;
-	width: 300px;
+	width: 40%;
 }
 .med_img {
 	margin: 10px;
 	width: 500px;
 }
 .project_info {
-	width: 30%;
 	padding-right: 20px;
 	float:left;
 	text-align: right;
@@ -103,7 +105,10 @@
 h3,h4 {
 	color: #00897B;
 }
+h5 {
+	color:#A5D6A7;
 
+}
 .card .card-color {
 	color: #00897B;
 }
@@ -115,6 +120,44 @@ h3,h4 {
 }
 .card a:hover {
 	color: #B2DFDB;
+}
+
+/*------
+------- */
+.about_quote {
+	width: 100%;
+	padding-left: 20px;
+	min-height: 50px;
+	text-align: left;
+	border-left: 5px solid #B2DFDB; 
+	margin: 50px 0 50px 0;
+}
+.about_quote p {
+	color:#A5D6A7;
+	margin: 0px;
+	font-size: 1.34rem;
+}
+.about_quote i {
+	color:#5b9735;
+	font-size: 1.04rem;
+}
+.card-panel{
+	box-shadow: none;
+}
+
+.about_more {
+	min-height: 400px;
+}
+.about_more b {
+	font-size: 1.14rem;
+}
+ul.about_list, ul.about_list >li {
+	list-style-type: disc;
+	padding: 5px;
+
+}
+.about_list {
+	padding-left: 30px;
 }
 /*------
 ------- */
