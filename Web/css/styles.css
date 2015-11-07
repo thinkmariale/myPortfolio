@@ -24,14 +24,18 @@
     height: 100%;
     padding-top: 20px;
  }
-#top-nav ul {
+.tabs{
 	margin-top: 30px;
 	height: 40%;
 }
 
+.nav_icon {
+	color:#5b9735;
+}
+
 #top-nav ul a{
 	color: #A5D6A7;
-	 height: 100%;
+	height: 100%;
 }
 
 #top-nav ul a:hover{
@@ -54,7 +58,9 @@
 	font-size: 20px;
 	font-family: arial;
 	font-style: normal;
+	color: black;
 }
+
 .white1{
 	background-color: white;
 }
@@ -72,23 +78,51 @@
 
 /*------
 ------- */
+
 .small_img{
 	margin: 5px;
-	width: 30%
+	width: 70%;
+	min-width: 150px;
+	height: 100%;
 }
 .small_img_{
 	margin: 10px;
-	width: 40%;
+	width: 30%;
+	min-width: 300px;
 }
 .med_img {
-	margin: 10px;
-	width: 500px;
+	display: block;
+    margin: 0 auto;
+	width: 70%;
+	min-width: 350px;
 }
+
 .project_info {
 	padding-right: 20px;
 	float:left;
 	text-align: right;
 	border-right: 5px solid #B2DFDB; 
+	min-height: 50px;
+}
+
+@media only screen and (min-width : 600px) {
+	.project_info {
+		min-height: 200px;
+		background-color: red;
+	}
+
+	.small_img{
+		width: 30%;
+	}
+	.med_img {
+		width: 40%;
+	}
+}
+
+.colm_flex {	
+ 	width:100%;
+	margin-bottom: 100px;
+	height: 100%;	
 }
 
 #project_content {
@@ -101,6 +135,9 @@
 .video_info{
 	margin-top:80px;
 	text-align: center;
+}
+.video_container {
+	margin-left: 5%;
 }
 h3,h4 {
 	color: #00897B;
@@ -158,6 +195,9 @@ ul.about_list, ul.about_list >li {
 }
 .about_list {
 	padding-left: 30px;
+}
+.cv_info p{
+	margin: 0px;
 }
 /*------
 ------- */

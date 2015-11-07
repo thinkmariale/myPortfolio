@@ -4,7 +4,7 @@ function pageController(){
 	
 	function setSinglePage(project){ 
  		$("#project_title").text (project.title);
-		$("#project_info").html (project.content);
+		$("#project_intro").html (project.content);
 		$("#img1").attr("src",project.image1);
 		$("#img2").attr("src", project.image2);
 		$("#img3").attr("src", project.image3);
@@ -21,13 +21,15 @@ function pageController(){
 
 	 	var div = document.createElement('div');
     	div.className = 'col s12 m12';
-    	div.innerHTML = '<div class="center-align">\
+    	div.innerHTML = '<div class="col s12 l5">\
         					<div class="project_info">\
      							<h3 id="project_title_1"> title</h3>\
      							<p id = "project_info_1" > main info dynamicly loaded </p>\
-     						</div>\
-     						<iframe id = "video_content_1" class="z-depth-2" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>\
+     						</div></div>\
+     						<div class="col l6 s12 ">\
+     						<iframe id = "video_content_1" class="video_container z-depth-2" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>\
        					 	<br/><br/><br/><br/><br/>\
+       					 	</div>\
        				 	</div>';
     	document.getElementById('mainBody').appendChild(div);
  		$("#project_title_1").text (project.title);
@@ -36,13 +38,15 @@ function pageController(){
 	 	
 	 	var div2 = document.createElement('div');
     	div2.className = 'col s12 m12';
-    	div2.innerHTML = '<div class="center-align">\
+    	div2.innerHTML = '<div class="col s12 l5">\
         					<div class="project_info">\
      							<h3 id="project_title_2"> title</h3>\
      							<p id = "project_info_2" > main info dynamicly loaded </p>\
-     						</div>\
-     						<iframe id = "video_content_2" class="z-depth-2" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>\
+     						</div></div>\
+     						<div class="col l6 s12 ">\
+     						<iframe id = "video_content_2" class="video_container z-depth-2" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>\
        					 	<br/><br/><br/><br/><br/>\
+       					 	</div>\
        				 	</div>';
     	document.getElementById('mainBody').appendChild(div2);
 		$("#project_title_2").text (project.title_2);
@@ -51,13 +55,15 @@ function pageController(){
 
 		div = document.createElement('div');
     	div.className = 'col s12 m12';
-    	div.innerHTML = '<div class="center-align">\
+    	div.innerHTML = '<div class="col s12 l5">\
         					<div class="project_info">\
      							<h3 id="project_title_3"> title</h3>\
      							<p id = "project_info_3" > main info dynamicly loaded </p>\
-     						</div>\
-     						<iframe id = "video_content_3" class="z-depth-2" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>\
+     						</div></div>\
+     						<div class="col l6 s12 ">\
+     						<iframe id = "video_content_3" class="video_container z-depth-2" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>\
        					 	<br/><br/><br/><br/><br/>\
+       					 	</div>\
        				 	</div>';
     	document.getElementById('mainBody').appendChild(div);
  		$("#project_title_3").text (project.title_3);
@@ -66,13 +72,15 @@ function pageController(){
 	 	
 	 	div2 = document.createElement('div');
     	div2.className = 'col s12 m12';
-    	div2.innerHTML = '<div class="center-align">\
+    	div2.innerHTML = '<div class="col s12 l5">\
         					<div class="project_info">\
      							<h3 id="project_title_4"> title</h3>\
      							<p id = "project_info_4" > main info dynamicly loaded </p>\
-     						</div>\
-     						<iframe id = "video_content_4" class="z-depth-2" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>\
+     						</div></div>\
+     						<div class="col l6 s12 ">\
+     						<iframe id = "video_content_4" class="video_container z-depth-2" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>\
        					 	<br/><br/><br/><br/><br/>\
+       					 	</div>\
        				 	</div>';
     	document.getElementById('mainBody').appendChild(div2);
 		$("#project_title_4").text (project.title_4);
@@ -85,13 +93,15 @@ function pageController(){
 
 	 	var div = document.createElement('div');
     	div.className = 'col s12 m12';
-    	div.innerHTML = '<div class="center-align">\
+    	div.innerHTML = '<div class="col s12 l5">\
         					<div class="project_info">\
      							<h3 id="project_title_1"> title</h3>\
      							<p id = "project_info_1" > main info dynamicly loaded </p>\
-     						</div>\
-     						<iframe id = "video_content_1" class="z-depth-2" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>\
+     						</div></div>\
+     						<div class="col l6 s12 ">\
+     						<iframe id = "video_content_1" class="video_container z-depth-2" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>\
        					 	<br/><br/><br/><br/><br/>\
+       					 	</div>\
        				 	</div>';
     	document.getElementById('mainBody').appendChild(div);
  		$("#project_title_1").text (project.title);
@@ -100,13 +110,15 @@ function pageController(){
 	 	
 	 	var div2 = document.createElement('div');
     	div2.className = 'col s12 m12';
-    	div2.innerHTML = '<div class="center-align">\
+    	div2.innerHTML = '<div class="col s12 l5">\
         					<div class="project_info">\
      							<h3 id="project_title_2"> title</h3>\
      							<p id = "project_info_2" > main info dynamicly loaded </p>\
-     						</div>\
-     						<iframe id = "video_content_2" class="z-depth-2" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>\
+     						</div></div>\
+     						<div class="col l6 s12 ">\
+     						<iframe id = "video_content_2" class="video_container z-depth-2" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>\
        					 	<br/><br/><br/><br/><br/>\
+       					 	</div>\
        				 	</div>';
     	document.getElementById('mainBody').appendChild(div2);
 		$("#project_title_2").text (project.title_2);
@@ -128,9 +140,6 @@ function pageController(){
 		    	break;
 		    case "maze_heart":
 		    	project = new maze_of_heart();
-		    	break;
-		     case "kinect_fun":
-		    	project = new kinect_fun();
 		    	break;
 		    case "last_egg":
 		    	project = new last_egg();

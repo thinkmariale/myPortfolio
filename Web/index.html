@@ -24,23 +24,28 @@
   <nav class="white1" role="navigation">
     <div class="nav-wrapper container">
       <div id="logo">
-        <img  src="images/logo.png" width="300px">
-       <a id="logo-container" href="#" clas="brand-logo"></a>
+      
+       <a id="logo-container" href="#" clas="brand-logo">  <img  src="images/logo.png" width="300px"> </a>
+
       </div>
       <div id="top-nav">
 
       <ul class="tabs right hide-on-med-and-down">        
         <li class="tab"><a href="#" id="work_">Work</a></li>
-        <li class="tab"><a href="#" >Featured</a></li>
+        <li class="tab"><a href="#" id="featured_">Featured</a></li>
         <li class="tab"><a href="#" id= "about_">About</a></li>
-        <li class="tab"><a href="#">CV</a></li>
-        <li class="tab"><a href="#">Contact</a></li>
+        <li class="tab"><a href="#" id="cv_">CV</a></li>
+        <li class="tab"><a href="#" id="contact_">Contact</a></li>
       </ul>
       
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
+       <ul id="nav-mobile" class="side-nav">
+        <li class="tab"><a href="#" id="work_1">Work</a></li>
+        <li class="tab"><a href="#" id="featured_">Featured</a></li>
+        <li class="tab"><a href="#" id= "about_">About</a></li>
+        <li class="tab"><a href="#" id="cv_">CV</a></li>
+        <li class="tab"><a href="#" id="contact_">Contact</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse fullsize"><i id="menu">menu</i></a>
+      <a href="#" data-activates="nav-mobile" class="button-collapse right"><i class="material-icons nav_icon">menu</i></a>
 
       <div>
     </div>
@@ -115,35 +120,77 @@
   <script src="js/init.js"></script>
   <script src="js/projects.js"></script>
   <script src="js/mainController.js"></script>
-  <script type="text/javascript">
-     $(document).ready(function(){
-       $('ul.tabs').tabs();
-       console.log("ready");
-          $("#body").load("work.html")
-           $("#work_").click(function(){
-               $("#body").load("work.html");
-           });
-           $("#about_").click(function(){
-               $("#body").load("about.html");
-           });
-          if (typeof pgController === 'undefined'){
-            console.log("loading pgController");
-            pgController = new pageController();
-          }
-      });
+  <script src="js/jquery.history.js"></script>
 
-     function setProject(pp){
+  <script type="text/javascript">
+
+  (function(window,undefined){
+        History.pushState("init", "thinkmariale", "http://localhost:8000/index.html");
+        // Establish Variables
+        var
+          State = History.getState(),
+          $log = $('#log');
+
+        // Log Initial State
+        History.log('initial:', State.data, State.title, State.url);
+        // Bind to State Change
+        History.Adapter.bind(window,'statechange',function(){ // Note: We are using statechange instead of popstate
+          // Log the State
+          var State = History.getState(); // Note: We are using History.getState() instead of event.state
+          History.log('statechange:', State.data, State.title, State.url);
+          //alert(State.url + " " + State.title);
+          if(State.title == "project") {
+            History.back();
+          }
+          if(State.title == "thinkmariale"){
+            window.location.replace(State.url);
+          }
+        });
+      })(window);
+
+    $(document).ready(function(){
+      $('ul.tabs').tabs();
+      console.log("setting menu components");
+      $("#body").load("work.html")
+      $("#work_1").click(function() { 
+        console.log("work time");
+       History.pushState({state:2,rand:Math.random()}, "menu", "http://localhost:8000/index.html"); 
+      $("#body").load("work.html"); });
+
+      $("#work_").click(function() { 
+        console.log("work time");
+       History.pushState({state:2,rand:Math.random()}, "menu", "http://localhost:8000/index.html");
+        $("#body").load("work.html"); });
+      $("#about_").click(function() { 
+       History.pushState({state:3,rand:Math.random()}, "menu", "http://localhost:8000/index.html");
+        $("#body").load("about.html"); });
+      $("#featured_").click(function() { 
+       History.pushState({state:4,rand:Math.random()}, "menu", "http://localhost:8000/index.html");
+        $("#body").load("featured.html"); });
+       $("#cv_").click(function() { 
+       History.pushState({state:5,rand:Math.random()}, "menu", "http://localhost:8000/index.html");
+        $("#body").load("cv.html"); });
+      if (typeof pgController === 'undefined'){
+        console.log("loading pgController");
+        pgController = new pageController();
+      }
+      
+    });
+
+    // loading the single projects
+    function setProject(pp){
+       History.pushState({state:1,rand:Math.random()}, "project", "http://localhost:8000/index.html");
       if(pp == 'marioneta'){
          pgController.loadPage({load:"default1.html", call:pp });
       }
-      if(pp == 'shortGames' || pp == 'kinects'){
+      else if(pp == 'shortGames' || pp == 'kinects'){
          pgController.loadPage({load:"defaultMult.html", call:pp });
-      }if(pp == 'computerGraphics'){
+      }else if(pp == 'computerGraphics'){
         $("#body").load("graphics.html")
       } else {
         pgController.loadPage({load:"default.html", call:pp });
       }
-     }
+    }
 
   </script>
  
