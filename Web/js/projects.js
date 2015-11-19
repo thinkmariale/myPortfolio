@@ -11,11 +11,11 @@ function palmistry_ball(){
 
 	this.mainContent = "Palmistry Ball was first developed in OpenFramewroks to get the projector and hand calibration done ";
 	this.mainContent += "with the use of OpenCV. Once I was able to calibrate the hand to the projector, I decided to make it into a game. "
-	this.mainContent += "With this vision, I refactored the calibration code into Unity3D and developed the game in this same platform";
+	this.mainContent += "With this vision, I re factored the calibration code into Unity3D and developed the game in this same platform";
 	this.mainContent += "<br/><br/> <img src='images/palmistryBall/calibration_process.jpg' align='left'style='margin:10px 20px 0 0;'> ";
 	this.mainContent += "For the calibration aspect of this project (the hardest for me), I first marked a place in my finger to use as guide."
 	this.mainContent += " <br/><br/>Then, I would place the projector where I wanted it to go and place my hand under it. ";
-	this.mainContent += "I would move the mouse curser to my finger. Click, ";
+	this.mainContent += "I would move the mouse courser to my finger. Click, ";
 	this.mainContent += "and record the 3D point of Leap motion and the 2D point of the screen where the mouse cursor was at. ";
 	this.mainContent += " <br/><br/>This information was then passed into openCV to find the final position "
 	this.mainContent += "of the virtual camera in the scene and translate it there.";
@@ -25,7 +25,7 @@ function palmistry_ball(){
 function marioneta(){
 	this.title = "Marioneta";
 	this.content = "A puppet gesture recognition and mirroring experience done using Microsoft Kinect v2. ";
-	this.content += "It was a project for the Pittsburgh Children’s Museum and it is currently a permanently installation.";
+	this.content += "It was a project for the Pittsburgh Children's Museum and it is currently a permanently installation.";
 	this.mainContent = "Marioneta's main focus is to create an endless experience in which everything in the virtual world will ";
 	this.mainContent += "react to the users actions as they become and impersonate a puppet. "
 	this.mainContent += "It was admitted into SXSW 2015 Film Festival. ";
@@ -85,7 +85,7 @@ function maze_of_heart(){
 	this.mainContent += "could play easily with the  Microsoft Kinect.";
 	this.mainContent += "<br/><br/>";
 	this.mainContent += "Maze of Heart consists of a robot that gets its heart broken in multiple pieces. ";
-	this.mainContent += "The player’s objective is to take all the heart pieces that are around the robot’s body back ";
+	this.mainContent += "The player's objective is to take all the heart pieces that are around the robot's body back ";
 	this.mainContent += "to its heart. The player will get help from a mouse, a friend of the robot, by indicating ";
 	this.mainContent += "the player in what part of the body the pieces are. This way the player will have to move ";
 	this.mainContent += "its body in multiple ways to effectively take the pieces back to the heart."
@@ -128,9 +128,9 @@ function kinects() {
 	this.video_2 = "http://player.vimeo.com/video/50020490";
 
 	this.title_3 = "Multiple Me";
-	this.content_3 = "Multiple Me was inspired from the typical video editing technical of having “multiple you’s” ";
+	this.content_3 = "Multiple Me was inspired from the typical video editing technical of having 'multiple yous' ";
 	this.content_3 += "on the screen. I decided to make it real time with the use of the Kinect! it can hold up to 20 ";
-	this.content_3 += "different video clips. I really want to go to space, so that’s why it’s multiple me in space! ";
+	this.content_3 += "different video clips. I really want to go to space, so that's why it's multiple me in space! ";
 	this.video_3 = "http://player.vimeo.com/video/50760404";
 
 	this.title_4 = "OpenGL Car";
