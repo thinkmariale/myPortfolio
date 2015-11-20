@@ -25,7 +25,8 @@
     <div class="nav-wrapper container">
       <div id="logo">
       
-       <a id="logo-container" href="#" clas="brand-logo">  <img  src="images/thinkMariale.png" width="300px"> </a>
+       <a id="logo-container" href="http://thinkmariale.com" clas="brand-logo">
+         <img  src="images/thinkMariale.png" width="300px"> </a>
 
       </div>
       <div id="top-nav">
@@ -126,7 +127,7 @@
   <script type="text/javascript">
 
   (function(window,undefined){
-        History.pushState("init", "thinkmariale", "http://localhost:8000/index.html");
+        History.pushState("init", "thinkmariale", "http://thinkmariale.com/index.html");
         // Establish Variables
         var
           State = History.getState(),
@@ -161,13 +162,14 @@
     });
 
     function navBarClick(item) {
-      History.pushState({state:5,rand:Math.random()}, "menu", "http://localhost:8000/index.html");
+      History.pushState({state:5,rand:Math.random()}, "menu", "http://thinkmariale.com/index.html");
        $("#body").load(item);
     }
 
     // loading the single projects
     function setProject(pp){
-       History.pushState({state:1,rand:Math.random()}, "project", "http://localhost:8000/index.html");
+      document.body.scrollTop = document.documentElement.scrollTop = 0;
+      History.pushState({state:1,rand:Math.random()}, "project", "http://thinkmariale.com/index.html");
       if(pp == 'marioneta'){
          pgController.loadPage({load:"default1.html", call:pp });
       }
