@@ -9,6 +9,9 @@
  	margin-bottom: 50px;
  }
 
+.brand-logo img {
+	width: 300px;
+}
  #logo {
  	float: left;
  	width: 40%;
@@ -17,7 +20,7 @@
 
  #logo a{
  	color: #B6DED2;
- 	padding-top: 20px;
+ 	padding-top: 0px;
  }
 
  #top-nav {
@@ -50,13 +53,27 @@
 	 /*height: 100%; B6DED2*/
 }
 
-@media only screen and (min-width : 301px) {
-  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: inherit;
-    line-height: 64px; }
-  .navbar-fixed {
-    height: 64px; } }
 
+ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    height: inherit;
+    line-height: 64px;
+  }
+  .navbar-fixed {
+    height: 64px;
+  }
+
+@media only screen and (max-width : 400px) {
+  .brand-logo img {
+	  width:200px;
+  }
+  #header {
+	  height: 100px; 
+	  margin-bottom: 30px;
+  }
+   #logo a {
+	    padding-top: 0px;
+   }
+}
 
 #menu {
 	font-size: 20px;
@@ -85,20 +102,20 @@
 
 .small_img{
 	margin: 5px;
-	width: 70%;
-	min-width: 150px;
-	height: 100%;
+	width: 30%;
+	/*min-width: 150px;
+	height: 100%;*/
 }
 .small_img_{
 	margin: 10px;
 	width: 30%;
-	min-width: 300px;
+	/*min-width: 300px;*/
 }
 .med_img {
 	display: block;
     margin: 0 auto;
 	width: 70%;
-	min-width: 350px;
+	/*min-width: 350px;*/
 }
 
 .project_info {
@@ -109,17 +126,33 @@
 	min-height: 50px;
 }
 
-@media only screen and (min-width : 600px) {
+#project_content {
+	text-align: left;
+	width: 70%;
+	margin:0 auto 0 auto;
+	font-size: 18px;
+	text-align:justify;
+}
+
+@media only screen and (max-width : 400px) {
 	.project_info {
 		min-height: 200px;
 	}
-
+	.small_img_{
+		width: 100%;
+	}
 	.small_img{
-		width: 30%;
+		width: 70%;
 	}
 	.med_img {
-		width: 40%;
+		width: 80%;
 	}
+	iframe {
+		margin-top: 15px;
+		width: 250px;	
+		height:200px;
+	}
+	#project_content { width: 90%; }
 }
 
 .colm_flex {	
@@ -128,13 +161,7 @@
 	height: 100%;	
 }
 
-#project_content {
-	text-align: left;
-	width: 70%;
-	margin:0 auto 0 auto;
-	font-size: 18px;
-	text-align:justify;
-}
+
 .video_info{
 	margin-top:80px;
 	text-align: center;
