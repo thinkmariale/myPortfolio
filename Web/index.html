@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>ThinkMariale</title>
+  <meta property="og:site_name" content="">
+  <meta property="og:title" content="Work">
+  <meta property="og:url" content="http://www.thinkmariale.com/">
+  <meta property="og:type" content="website">
+  <meta itemprop="name" content="Work">
+  <meta itemprop="url" content="http://www.thinkmariale.com/">
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/styles.css" type="text/css" rel="stylesheet" />
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+   
+
+</head>
+<body>
+  <header id ="header">
+
+  <nav class="white1" role="navigation">
+    <div class="nav-wrapper container">
+      <div id="logo">
+      
+       <a id="logo-container" href="http://thinkmariale.com" class="brand-logo">
+         <img src="images/thinkMariale.png"> </a>
+
+      </div>
+      <div id="top-nav">
+
+      <ul class="tabs right hide-on-med-and-down">        
+        <li class="tab"><a href="#" onClick = navBarClick("work.html")>Work</a></li>
+        <li class="tab"><a href="#" onClick = navBarClick("featured.html")>Featured</a></li>
+        <li class="tab"><a href="#" onClick = navBarClick("about.html")>About</a></li>
+        <li class="tab"><a href="#" onClick = navBarClick("cv.html")>CV</a></li>
+        <li class="tab"><a href="#" onClick = navBarClick("contact.html")>Contact</a></li>
+      </ul>
+      
+       <ul id="nav-mobile" class="side-nav">
+        <li class="tab"><a href="#" onClick = navBarClick("work.html")>Work</a></li>
+        <li class="tab"><a href="#" onClick = navBarClick("featured.html")>Featured</a></li>
+        <li class="tab"><a href="#" onClick = navBarClick("about.html")>About</a></li>
+        <li class="tab"><a href="#" onClick = navBarClick("cv.html")>CV</a></li>
+        <li class="tab"><a href="#" onClick = navBarClick("contact.html")>Contact</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse right">
+		  <i class="material-icons">menu</i></a>
+
+     </div>
+	</div>
+  </nav>
+
+  </header>
+  <!--   Icon Section   -->
+  <div class="container" id="body">
+    
+      
+                    
+  </div>
+
+   <br><br>
+   <div class="section"> </div>
+ 
+
+ <!--   Footer Section   -->
+  <footer class="page-footer  green lighten-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l8 s12">
+          <h5 class="white-text">Creative Developer</h5>
+          <p>
+            A girl that is in love with programming and uses it as a mean of art.</p>
+          <a href="http://www.cmu.edu/" target = "_blank">Master of Entertainment Technology <br>
+            at Carnegie Mellon University </a>
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Get in Touch</h5>
+          <ul>
+            <li> <i class="fa fa-gamepad fa-lg "></i>
+              <a href="images/MariaMontenegroResume.pdf" title="Resume" target="_blank">Resume</a></li>
+            <li> <i class="fa fa-envelope"></i>
+              <a href="mailto:thinkmariale@gmail.com" title="Email">Email</a></li>
+           
+          </ul>
+        </div>
+
+        <div class="col s12 m12">
+         <br>
+          <ul>
+             <a href="https://www.linkedin.com/pub/maria-alejandra-montenegro/35/a1/672/" target="_blank">
+          <i class="fa fa-linkedin-square fa-lg"></i>LinkedIn</a>
+              <a href="https://twitter.com/thinkmariale" target="_blank">
+         <i class="fa fa-twitter fa-lg"></i>Twitter</a>
+              <a href="https://github.com/thinkmariale" target="_blank">
+         <i class="fa fa-github-square fa-lg" target="_blank"></i>GitHub</a>
+              <a href="https://vimeo.com/user11450827" target="_blank">
+          <i class="fa fa-vimeo-square fa-lg"></i>Vimeo</a>
+              <a href="http://thinkmariale.wordpress.com/" target="_blank">
+          <i class="fa fa-wordpress fa-lg"></i>Blog</a>
+              
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      <p>Made by <a href="http://ThinkMariale.com">ThinkMariale</a>
+        © 2015. All Right Reserved </p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+<script src="//use.edgefonts.net/antic;carme;ubuntu-condensed.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script> 
+ <!--  <script src="js/jquery.min.js"></script> -->
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/mainController.js"></script>
+  <script src="js/jquery.history.js"></script>
+
+  <script type="text/javascript">
+
+  (function(window,undefined) {
+        History.pushState("init", "thinkmariale", "http://thinkmariale.com/index.html");
+	    //History.pushState("init", "thinkmariale", "http://localhost:8000//index.html");
+
+        // Establish Variables
+        var
+          State = History.getState(),
+          $log = $('#log');
+
+        // Log Initial State
+        History.log('initial:', State.data, State.title, State.url);
+        // Bind to State Change
+        History.Adapter.bind(window,'statechange',function(){ // Note: We are using statechange instead of popstate
+          // Log the State
+          var State = History.getState(); // Note: We are using History.getState() instead of event.state
+          History.log('statechange:', State.data, State.title, State.url);
+          //alert(State.url + " " + State.title);
+          if(State.title == "project") {
+            History.back();
+          }
+          if(State.title == "thinkmariale"){
+            window.location.replace(State.url);
+          }
+        });
+      })(window);
+
+    $(document).ready(function(){
+		 $(".button-collapse").sideNav();
+      $('ul.tabs').tabs();
+      console.log("setting menu components");
+      $("#body").load("work.html");
+      if (typeof pgController === 'undefined'){
+        console.log("loading pgController");
+        pgController = new pageController();
+      }
+      
+    });
+
+    function navBarClick(item) {
+     History.pushState({state:5,rand:Math.random()}, "menu", "http://thinkmariale.com/index.html");
+	//History.pushState({state:5,rand:Math.random()}, "menu", "http://localhost:8000//index.html");
+       $("#body").load(item);
+    }
+
+    // loading the single projects
+    function setProject(pp){
+      document.body.scrollTop = document.documentElement.scrollTop = 0;
+      History.pushState({state:1,rand:Math.random()}, "project", "http://thinkmariale.com/index.html");
+     // History.pushState({state:1,rand:Math.random()}, "project", "http://localhost:8000//index.html");
+				  
+
+      if(pp == 'marioneta'){
+         pgController.loadPage({load:"default1.html", call:pp });
+      }
+      else if(pp == 'shortGames' || pp == 'kinects'){
+         pgController.loadPage({load:"defaultMult.html", call:pp });
+      }else if(pp == 'computerGraphics'){
+        $("#body").load("graphics.html")
+      } else {
+        pgController.loadPage({load:"default.html", call:pp });
+      }
+    }
+
+  </script>
+ 
+  <!-- Include Jquery here in a script tag -->
+   
+ <!-- Icons -->
+ <link rel="stylesheet" href="scripts/fontawesome/css/font-awesome.min.css"> 
+  </body>
+</html>
