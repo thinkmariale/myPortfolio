@@ -130,7 +130,7 @@
   (function(window,undefined) {
         History.pushState("init", "thinkmariale", "http://www.thinkmariale.com/index.html");
 	    //History.pushState("init", "thinkmariale", "http://localhost:8000//index.html");
-
+	  	console.log("here");
         // Establish Variables
         var
           State = History.getState(),
@@ -166,7 +166,7 @@
     });
 
     function navBarClick(item) {
-     History.pushState({state:5,rand:Math.random()}, "menu", "http://thinkmariale.com/index.html");
+     History.pushState({state:5,rand:Math.random()}, "menu", "http://www.thinkmariale.com/index.html");
 	//History.pushState({state:5,rand:Math.random()}, "menu", "http://localhost:8000//index.html");
        $("#body").load(item);
     }
@@ -174,7 +174,7 @@
     // loading the single projects
     function setProject(pp){
       document.body.scrollTop = document.documentElement.scrollTop = 0;
-      History.pushState({state:1,rand:Math.random()}, "project", "http://thinkmariale.com/index.html");
+      History.pushState({state:1,rand:Math.random()}, "project", "http://www.thinkmariale.com/index.html");
      // History.pushState({state:1,rand:Math.random()}, "project", "http://localhost:8000//index.html");
 				  
 
