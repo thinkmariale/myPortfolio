@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Think Mariale</title>
+  <title>ThinkMariale</title>
   <meta property="og:site_name" content="">
   <meta property="og:title" content="Work">
   <meta property="og:url" content="http://www.thinkmariale.com/">
@@ -46,10 +46,11 @@
         <li class="tab"><a href="#" onClick = navBarClick("cv.html")>CV</a></li>
         <li class="tab"><a href="#" onClick = navBarClick("contact.html")>Contact</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse right"><i class="material-icons nav_icon">menu</i></a>
+      <a href="#" data-activates="nav-mobile" class="button-collapse right">
+		  <i class="material-icons">menu</i></a>
 
-      <div>
-    </div>
+     </div>
+	</div>
   </nav>
 
   </header>
@@ -60,9 +61,9 @@
                     
   </div>
 
-    <br><br>
-    <div class="section"> </div>
-  </div>
+   <br><br>
+   <div class="section"> </div>
+ 
 
  <!--   Footer Section   -->
   <footer class="page-footer  green lighten-3">
@@ -98,9 +99,9 @@
          <i class="fa fa-github-square fa-lg" target="_blank"></i>GitHub</a>
               <a href="https://vimeo.com/user11450827" target="_blank">
           <i class="fa fa-vimeo-square fa-lg"></i>Vimeo</a>
-              <a href="http://montem888.wordpress.com/" target="_blank">
+              <a href="http://thinkmariale.wordpress.com/" target="_blank">
           <i class="fa fa-wordpress fa-lg"></i>Blog</a>
-              </p>
+              
           </ul>
         </div>
       </div>
@@ -127,8 +128,8 @@
   <script type="text/javascript">
 
   (function(window,undefined) {
-        //History.pushState("init", "thinkmariale", "http://thinkmariale.com/index.html");
-	    History.pushState("init", "thinkmariale", "http://localhost:8000//index.html");
+        History.pushState("init", "thinkmariale", "http://thinkmariale.com/index.html");
+	    //History.pushState("init", "thinkmariale", "http://localhost:8000//index.html");
 
         // Establish Variables
         var
@@ -153,6 +154,7 @@
       })(window);
 
     $(document).ready(function(){
+		 $(".button-collapse").sideNav();
       $('ul.tabs').tabs();
       console.log("setting menu components");
       $("#body").load("work.html");
@@ -164,16 +166,16 @@
     });
 
     function navBarClick(item) {
-     //History.pushState({state:5,rand:Math.random()}, "menu", "http://thinkmariale.com/index.html");
-		History.pushState({state:5,rand:Math.random()}, "menu", "http://localhost:8000//index.html");
+     History.pushState({state:5,rand:Math.random()}, "menu", "http://thinkmariale.com/index.html");
+	//History.pushState({state:5,rand:Math.random()}, "menu", "http://localhost:8000//index.html");
        $("#body").load(item);
     }
 
     // loading the single projects
     function setProject(pp){
       document.body.scrollTop = document.documentElement.scrollTop = 0;
-     // History.pushState({state:1,rand:Math.random()}, "project", "http://thinkmariale.com/index.html");
-      History.pushState({state:1,rand:Math.random()}, "project", "http://localhost:8000//index.html");
+      History.pushState({state:1,rand:Math.random()}, "project", "http://thinkmariale.com/index.html");
+     // History.pushState({state:1,rand:Math.random()}, "project", "http://localhost:8000//index.html");
 				  
 
       if(pp == 'marioneta'){
