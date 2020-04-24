@@ -22,6 +22,21 @@ function palmistry_ball(){
 	this.video = "http://player.vimeo.com/video/127358563";
 }
 
+function remnant(){
+	this.title = "Remnant Dinner";
+	this.content = "An Interactive Story told through Mixed Reality and food. ";
+	this.content += "The merging of the real and virtual worlds, is slowly changing how we work, how we play, and how we communicate.";
+	this.mainContent = "Remnant was made in collaboration with a well known restaurant in Copenhagen, Denmark. We prepared an interactive experience and took it across the world. ";
+	this.mainContent += "<br/><br/>";
+	this.mainContent += "I was incharge of creating the mixed reality component of the experience. It was built on ARKit and it detedetected cting users inputs, movements and surroundings.";
+    this.mainContent += "<br/><br/>";
+    this.mainContent += "The overall idea of the game was that users had to plant their own crops, and hunt for their food to survive. As they did that on the app, the chefs would react and start bringing food to the tables depending on the state of the game.";
+	this.image1 = "images/remnant/dinner_1.jpeg";
+	this.image2 = "images/remnant/dinner_2.jpeg";
+	this.image3 = "images/remnant/dinner_4.jpg";
+	this.image4 = "images/remnant/dinner_3.jpeg";
+	this.video = "none";
+}
 function marioneta(){
 	this.title = "Marioneta";
 	this.content = "A puppet gesture recognition and mirroring experience done using Microsoft Kinect v2. ";

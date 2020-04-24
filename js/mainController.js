@@ -8,7 +8,11 @@ function pageController(){
 		$("#img1").attr("src",project.image1);
 		$("#img2").attr("src", project.image2);
 		$("#img3").attr("src", project.image3);
-		$("#video_content").attr("src", project.video);
+        if(project.video == 'none'){
+			$("#video_content").hide();
+		} else {
+		  $("#video_content").attr("src", project.video);
+        }
 		$("#project_content").html (project.mainContent);
 		if(project.image4 == 'none'){
 			$("#img4").hide();
@@ -137,6 +141,9 @@ function pageController(){
 		        break;
 		    case "marioneta":
 		    	project = new marioneta();
+		    	break;
+            case "remnant":
+               	project = new remnant();
 		    	break;
 		    case "maze_heart":
 		    	project = new maze_of_heart();
