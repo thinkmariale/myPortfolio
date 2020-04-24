@@ -142,6 +142,9 @@ function pageController(){
 		    case "marioneta":
 		    	project = new marioneta();
 		    	break;
+            case "necklaces":
+                project = new necklaces();
+                break;
             case "remnant":
                	project = new remnant();
 		    	break;

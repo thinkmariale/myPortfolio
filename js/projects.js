@@ -22,6 +22,20 @@ function palmistry_ball(){
 	this.video = "http://player.vimeo.com/video/127358563";
 }
 
+function necklaces(){
+	this.title = "Love Necklaces";
+	this.content = "A fun Arduino project made in two weeks for Burning Man. ";
+	this.content += "Protytped the entire concept and build all the components.";
+	this.mainContent = "All the necklaces talk to each other through a radio component and to a centralized installation. Users could send different color patterns and animatio to the other users by pressing the button on the necklace. The idea behind that was to be able to send messages across the playa to your loved ones even when you were away.";
+    this.mainContent += "<br/><br/>";
+    this.mainContent += "They ended up working very well, and people kept sending messages all the time! Only issue was power :) ";
+	this.image1 = "images/necklaces/proto_1.jpeg";
+	this.image2 = "images/necklaces/proto_2.jpeg";
+	this.image3 = "images/necklaces/proto_3.jpeg";
+	this.image4 = "images/necklaces/proto_4.jpeg";
+	this.video = "none";
+}
+
 function remnant(){
 	this.title = "Remnant Dinner";
 	this.content = "An Interactive Story told through Mixed Reality and food. ";
