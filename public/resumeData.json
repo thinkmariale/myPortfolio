@@ -1,0 +1,368 @@
+{
+  "main": {
+    "name_intro":"Think Mariale",
+    "name":"Mariale",
+    "description":" 'I like nonsense, it wakes up the brain cells. Fantasy is a necessary ingredient in living' -Dr. Seuss ",
+    "image":"mariale.jpg",
+    
+    "bio":"A creative developer passionate about developing innovative ways to promote engagement using new technologies. Interactive storytelling and reactive installations can significantly impact people worldwide by showing them that magic is still among us.",
+   
+  
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "thinkmariale@gmail.com",
+    "github":"https://github.com/thinkmariale",
+    "backtop":"http://localhost:3000/#home",
+    "project":"https://thinkmariale.com/",
+    "address":{
+      "city":"San Francisco,",
+      "state":"California"
+    },
+    "website": "https://thinkmariale.com",
+    "resumedownload":"https://thinkmariale.com/images/MariaMontenegroResume.pdf",
+    "social":[
+      {
+        "name":"Vimeo",
+        "url":"https://vimeo.com/user11450827",
+        "className":"fa fa-vimeo-square"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/thinkmariale",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/thinkmariale",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"Blog",
+        "url":"https://thinkmariale.wordpress.com/",
+        "className":"fa fa-pencil-square-o"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/thinkmariale",
+        "className":"fa fa-github"
+      }
+    ],
+      
+      "background_1":"In 2008 I left Colombia to start my path in computer science and electronic media to develop the right tools to express myself. Finishing my career with a dual degree in computer science and electronic media has made me a strong programmer and a great dreamer. During my college carrier, I experimented with different techniques while searching for my own. ",  
+      "background_2":"Early on, I fell in love with the power of computer graphics. From fundamental problems, like ray tracing, to highly complex data structures and algorithms, like participating media and fluid simulations, everything fascinated me. Computer graphics improved my technical and problem-solving skills with every line of code I wrote. This field is a never-ending challenge in which the more complex the problem, the more beautiful the reward. It is in this field that makes my inner artist come to life!",
+      "background_3":"Once enlightened by the power of computer graphics, I started experimenting with OpenFrameworks, OpenGL, and gaming. I knew a new path had begun, full of complexity and imagination. A path that would take me to unlock computer vision and AI during my grad school years and work career.",
+      
+      "earlylife_1":"From an early age, I began traveling the world. My parents wanted my siblings and me to gather experiences that would help us understand the world we live in. Understand the differences between the different cultures that arise in every corner of the world.", 
+      "earlylife_2":"After two years of traveling, I developed the desire to help and impact those in need. My mother, being an artist, advised me to express myself in paintings, and I tried it until my dad brought home a Nintendo 64. My life changed 180 degrees. I was blown away by the power of such machine!",
+      "earlylife_3":"Once exposed to this technological change, I started feeling limited by my brush and canvas. I wanted to use technology to express myself. I remember asking my father to tell me something new about technology daily. His answers were always dreams in children's books. I was flattered. It wasn't until 8th grade, when introduced to web development, that I realized what his answers really meant. I became fascinated with the idea of programming and started reading about languages like C and JavaScript. Since then, I knew programming would be my brush and my mind the canvas."
+      
+  },
+
+  "resume":{
+    "skillmessage":"XR Development, Blockchain, Artificial Inteligence, WebGL,OpenCV, Data Visualization, Interactive Applications",
+    "langmessage":"I code in whatever language I need to, to make my experience come to life.",
+
+    "education":[
+      {
+        "school":"Carnegie Mellon University, PA",
+        "degree":"Masters Entertainment Technology (Computer Science Department)",
+        "graduated":"May 2015",
+        "description":"Focused on creating interactive experiences with the use of computer vision and artificial inteligence in the field of XR."
+      },
+      {
+        "school":"Rensselaer Polytechnic Institute, NY",
+        "degree":"Dual B.S. Computer Science & Electronic Arts",
+        "graduated":"May 2012",
+        "description":"Focused on creating procedural art and interactive instalations with computer graphics."
+      }
+    ],
+    "work":[
+      {
+        "company":"Mentaport, San Francisco, CA",
+        "title":"Founder, CTO",
+        "years":"Present",
+        "description":"The geolocation platform for Web3.",
+        "des_bullets":[
+         ]
+      },
+      {
+        "company":"Apple, San Francisco, CA",
+        "title":"Senior XR Prototyper ",
+        "years":"2020-2022",
+        "description":"Prototype experiences focused on audio agents.",
+        "des_bullets":[
+         ]
+      },
+      {
+        "company":"Magic Leap Inc., San Francisco, CA",
+        "title":"Lead User Interaction Engineer",
+        "years":"2016 - 2020",
+        "description":"Interactive experiences and gaming with the use of computer vision and AI in mix reality.",
+        "des_bullets":[
+             "Lead prototype development for future mixed reality",
+             "Develop prototypes for our deep learning team to test our algorithms",
+             "Train deep models to enhance interactions and experiences"
+         ]
+      },
+       {
+        "company":"Yahoo!",
+        "title":"Software Engineer, San Francisco, CA",
+        "years":"2015-2016",
+        "description":"Video team / android mobile development. Focused on live streaming algorithms.",
+        "des_bullets":[
+         ]
+      },
+      {
+        "company":"Kinesis Studio, San Francisco, CA",
+        "title":"Lead Developer",
+        "years":"2014",
+        "description":"Unity 3D developer of interactive floors with IR cameras (OpenCV) and Kinect 2.",
+        "des_bullets":[
+             "Developed blob detection and ID tracking algorithm, including when blobs merge together",
+             "Present in whole development cycle (beginning to end)",
+             "End products were installations in Las Vegas for client"
+         ]
+      }
+    ],
+    "installations":[
+      { 
+         "name": "Maze of Hearts",
+         "place":[
+             "Night Games Finalist @ IndieCade, Culver City, CA",
+             "Experimental Games @ Game Developer Conference (GDC), San Francisco, CA"
+         ]
+      },
+      { 
+         "name": "Marioneta",
+         "place":[
+             "Pittsburgh Children Museum (permanent installation), Pittsburgh, PA"
+         ]
+      },
+      { 
+         "name": "The Last Egg",
+         "place":[
+             "Big Games Finalist @ IndieCade, Culver City, CA"
+         ]
+      },
+      { 
+         "name": "The Machine",
+         "place":[
+             "EMPAC, Troy, NY"
+         ]
+      }
+    ],
+      
+    "skills":[
+      {
+        "name":"Unity 3D",
+        "level":"90%"
+      },
+      {
+        "name":"Blockchain / Web3 Tools",
+        "level":"80%"
+      },
+      {
+        "name":"Node.js",
+        "level":"90%"
+      },
+      {
+        "name":"React / React Native",
+        "level":"75%"
+      },
+      {
+        "name":"Three.js / WebGL",
+        "level":"60%"
+      },
+      {
+        "name":"Arduino / Raspberry PI",
+        "level":"80%"
+      },
+      {
+        "name":"Caffe / Tensor Flow",
+        "level":"25%"
+      }
+    ],
+    "languages":[
+      {
+        "name":"C++",
+        "level":"90%"
+      },
+      {
+        "name":"C#",
+        "level":"95%"
+      },
+      {
+        "name":"Typescript / JavaScript",
+        "level":"95%"
+      },
+     {
+        "name":"Solidity",
+        "level":"65%"
+      },
+      {
+        "name":"Python",
+        "level":"80%"
+      },
+     
+      {
+        "name":"Move",
+        "level":"40%"
+      }
+      
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Stamps",
+        "category":"Crypto",
+        "image":"14.gif",
+        "url":"https://stamps.mentaport.xyz."
+      },
+      {
+        "title":"Check Menta",
+        "category":"Crypto",
+        "image":"13.png",
+        "image1":"menta/img1.png",
+        "image2":"menta/img2.png",
+        "image3":"menta/img3.png",
+        "isVideo":true,
+        "video":"https://www.youtube.com/embed/To9lmp1E37Q",
+        "intro":"Browse NFT collections and get insights in real time. Get immediate insights with ratings from A to F.",
+        "info1":"Menta verifies that the NFT collection site you are browsing matches across accounts. And it does not need, or log, data from individual users, devices, or wallets.",
+        "info2":"https://www.checkmenta.com"
+      },
+      {
+        "title":"Renmant",
+        "category":"Mixed Reality Dinner",
+        "image":"01.jpg",
+        "image1":"remnant/img1.jpeg",
+        "image2":"remnant/img2.jpeg",
+        "image3":"remnant/img3.jpeg",
+        "intro":"An Interactive Story told through Mixed Reality and food. The merging of the real and virtual worlds, is slowly changing how we work, how we play, and how we communicate.",
+        "info1":"Remnant was made in collaboration with a well known restaurant in Copenhagen, Denmark. We prepared an interactive experience and took it across the world. I was incharge of creating the mixed reality component of the experience. It was built on ARKit and it detedetected cting users inputs, movements and surroundings.",
+        "info2":"The overall idea of the game was that users had to plant their own crops, and hunt for their food to survive. As they did that on the app, the chefs would react and start bringing food to the tables depending on the state of the game."
+      },
+      {
+        "title":"Marioneta",
+        "category":"Kinect Installation",
+        "image":"02.png",
+        "image1":"marioneta/img1.png",
+        "image2":"marioneta/img2.png",
+        "image3":"marioneta/img3.png",
+        "isVideo":true,
+        "video":"https://www.youtube.com/embed/DKYC4Ey70Rk",
+        "intro":"A puppet gesture recognition and mirroring experience done using Microsoft Kinect v2. It was a project for the Pittsburgh Children's Museum and it is currently a permanently installation",
+        "info1":"Marioneta's main focus is to create an endless experience in which everything in the virtual world will react to the users actions as they become and impersonate a puppet. It was admitted into SXSW 2015 Film Festival.",
+        "info2":"I was the technical lead in this amazing project."
+      },
+     
+      {
+        "title":"Interactive Floors",
+        "category":"OpenCV Installation",
+        "image":"09.png",
+        "image1":"floor/img1.jpg",
+        "image2":"floor/img2.jpg",
+        "image3":"floor/img3.jpg",
+        "intro":"A set of interactive floor installation experiences done with Unity3D and OpenCV. They were done during my internship at Kinesis Studio and I was the technical lead for the project.",
+        "info1":"One of the experiences was an extension of a 'Pong Game', with 6 teams and a 25 feet tracking arena. The second experience was a 'social floor'. The floor would show you what you had in common with other participants. It was also a 25 feet tracking area and it hold up to 16 people.",
+        "info2":""
+      },
+      {
+        "title":"Love Necklaces",
+        "category":"Arduino Madness",
+        "image":"04_.png",
+        "image1":"necklace/img1.jpeg",
+        "image2":"necklace/img2.jpeg",
+        "image3":"necklace/img3.jpeg",
+        "intro":"A fun Arduino project made in two weeks for Burning Man. Protytped the entire concept and build all the components.",
+        "info1":"All the necklaces talk to each other through a radio component and to a centralized installation. Users could send different color patterns and animatio to the other users by pressing the button on the necklace. The idea behind that was to be able to send messages across the playa to your loved ones even when you were away.",
+        "info2":"They ended up working very well, and people kept sending messages all the time! Only issue was power :)"
+      },
+      {
+        "title":"Palmistry Ball",
+        "category":"Projection mapping / Leap Motion",
+        "image":"05.png",
+        "image1":"palmistryBall/img1.png",
+        "image2":"palmistryBall/img2.jpg",
+        "image3":"palmistryBall/img3.png",
+        "isVideo":true,
+        "video":"https://player.vimeo.com/video/127358563?h=98b18a13eb",
+        "intro":"An interactive game that lives in your hand. Uses the Leap Motion controller for tracking and for creating 3D projection mapping to make the users hand the canvas.",
+        "info1":"Palmistry Ball was first developed in OpenFramewroks to get the projector and hand calibration done with the use of OpenCV. Once I was able to calibrate the hand to the projector, I decided to make it into a game. With this vision, I re factored the calibration code into Unity3D and developed the game in this same platform. For the calibration aspect of this project (the hardest for me), I first marked a place in my finger to use as guide.",
+        "info2":"Then, I would place the projector where I wanted it to go and place my hand under it. I would move the mouse courser to my finger. Click, and record the 3D point of Leap motion and the 2D point of the screen where the mouse cursor was at. This information was then passed into openCV to find the final position of the virtual camera in the scene and translate it there."
+      },
+      {
+        "title":"Maze of Heart",
+        "category":"Kinect Experimental game",
+        "image":"06.png",
+        "image1":"mazeHeart/img1.png",
+        "image2":"mazeHeart/img2.png",
+        "image3":"mazeHeart/img3.png",
+        "isVideo":true,
+        "video":"https://player.vimeo.com/video/78123680?h=ac728e6cbf",
+        "intro":"Help the robot put its heart pieces back together! By moving your body until you get the job done. A unique Microsoft Kinect based experience game featured in Experimental Games at GDC 2015.",
+        "info1":"This game was created with a focus on naive guests and indirect control. We were required to develop a game where even someone who is not experienced playing games could play easily with the Microsoft Kinect.",
+        "info2":"Maze of Heart consists of a robot that gets its heart broken in multiple pieces. The player's objective is to take all the heart pieces that are around the robot's body back to its heart. The player will get help from a mouse, a friend of the robot, by indicating the player in what part of the body the pieces are. This way the player will have to move its body in multiple ways to effectively take the pieces back to the heart."
+      },
+      {
+        "title":"The Last Egg",
+        "category":"Multiplayer game",
+        "image":"08.jpg",
+        "image1":"lastEgg/img1.jpg",
+        "image2":"lastEgg/img2.jpg",
+        "image3":"lastEgg/img3.jpg",
+        "isVideo":true,
+        "video":"https://player.vimeo.com/video/98692480?h=2532fc17f3",
+        "intro":"A digital playground game for two teams of 3 players that uses the PlayStation Move Motion Controllers. It was nominated at IndieCade 2014 as one of the 'Big Games' finalist.",
+        "info1":"The game consists of 3 rounds of 1 minute each. In which round both teams have to compete to get the 'last egg'. When the game starts, the 'last egg' randomly selects one PS Move and assigns a white light to it. This will indicate who was the egg.",
+        "info2":""
+      },
+      
+      {
+        "title":"Number Mission",
+        "category":"Educational Kinect Game",
+        "image":"11.png",
+        "image1":"number/img1.jpg",
+        "image2":"number/img2.jpg",
+        "image3":"number/img3.png",
+        "isVideo":true,
+        "video":"https://player.vimeo.com/video/41059563?h=ccf9e566bb",
+        "intro":"An interactive learning math game done with the Microsoft Kinect. The game has a green theme that encourages recycling and awareness of environmental issues.",
+        "info1":"Number Mission is targeted for 7 to 12 year old children and it was specially made to promote learning in underdeveloped countries and economically challenged areas. A three month HCI research was done prior to the development of the game. It was focused on discovering the best ways to interact with the children. During development, play testing was done weekly with a local charter school to proof or disproof our implementations.",
+        "info2":"The game has three three difficulty levels and three mini games to help the kids improve and at the same time feel progress by discovering a new mini game after each level."
+      }
+      
+
+    ]
+  },"Others":{
+    "projects": [
+      {
+        "title":"Be Close",
+        "category":"Connecting with love",
+        "image":"03.png",
+        "url":"https://www.beclose.co"
+      },
+      {
+        "title":"Linguar",
+        "category":"Google Glass",
+        "image":"10.png",
+        "intro":"A language learning application on Google Glass. It taking advantage of this wearable device by collecting as much data as possible from the user's daily life.",
+        "info1":"The application aggregates what the users has been saying throughout the day to create what we call: 'smart categories'. This categories consist of words related to what the user has been talking about. We use them to build a tailored Lesson Plan for the user, which will teach the user about content we know he is interested on because he has been talking about it throughout the day.",
+        "info2":"I was one of the programmers in the project, and was responsible for the data collection and the smart categories. Once the data was aggregated for the user, it was send to the Lesson Plan which I also helped implement."
+      },
+      {
+        "title":"MoleCap VR",
+        "category":"Wireless Oculus / Motion Capture",
+        "image":"07.png",
+        "image1":"mole/img1.png",
+        "image2":"mole/img2.png",
+        "image3":"mole/img3.png",
+        "isVideo":true,
+        "video":"https://www.youtube.com/embed/PK4NhH9FANs",
+        "intro":"A new virtual reality experience utilizing Wireless Oculus Rift DK1 and the Organic Motion Capture System.",
+        "info1":"MoleCap was a research project at Carnegie Mellon University. Its main purpose is to use the human body as the main control for the experience.",
+        "info2":"How do we react in a VR world when there are no cables or walls to act as boundaries? How do naive users react to day to day activities in a VR world?"
+      }
+    ]
+  }
+}
