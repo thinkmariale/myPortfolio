@@ -7,8 +7,8 @@ import {
 import Footer from "./Footer";
 
 function Project () {
+ 
   const { query } = useLocation(); 
-
   const projectName = query.projects.title;
   const projectImage1 = "images/portfolio/"+ query.projects.image1;
   const projectImage2= "images/portfolio/" + query.projects.image2;

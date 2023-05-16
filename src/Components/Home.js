@@ -8,6 +8,7 @@ import Portfolio from "./Portfolio";
 
 class Home extends Component {
   render() {
+
     if (!this.props.data) return null;
 
     return (

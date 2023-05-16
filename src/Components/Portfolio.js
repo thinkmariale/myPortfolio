@@ -9,7 +9,7 @@ class Portfolio extends Component {
   render() {
     if (!this.props.data) return null;
     const footer = this.props.data1;
-
+  
     const projects = this.props.data.projects.map(function (projects) {
       let projectImage = "images/portfolio/" + projects.image;
 
