@@ -2,7 +2,7 @@
   "name": "thikmariale",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  "homepage": "http://thinkmariale.github.io/myPortfolio",
   "dependencies": {
     "anix": "^1.3.6",
     "gh-pages": "^5.0.0",
