@@ -51,15 +51,12 @@ class Header extends Component {
 
         <div className="row banner">
           <div className="banner-text">
-           
+
               <h1 className="responsive-headline">{name}</h1>
-        
               <h3>{description}.</h3>
-         
             <hr />
-          
-              <h2>Building immersive experiences and taking them to crypto.</h2>
-            
+              <h2>Building immersive experiences for a better tommorrow.</h2>
+
             {/* <Fade bottom duration={2000}>
               <ul className="social">
                 <a href={project} className="button btn project-btn">

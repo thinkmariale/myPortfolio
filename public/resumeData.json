@@ -37,7 +37,7 @@
       },
       {
         "name":"Blog",
-        "url":"https://thinkmariale.wordpress.com/",
+        "url":"https://thinkmariale.substack.com",
         "className":"fa fa-pencil-square-o"
       },
       {
@@ -80,34 +80,42 @@
         "company":"Mentaport, San Francisco, CA",
         "title":"Founder, CTO",
         "years":"Present",
-        "description":"The geolocation platform for Web3.",
+        "description":"Tools for protecting and tracking IP across the internet for all content creators.",
         "des_bullets":[
          ]
       },
       {
         "company":"Apple, San Francisco, CA",
-        "title":"Senior XR Prototyper ",
+        "title":"Senior XR/AI Prototyper ",
         "years":"2020-2022",
-        "description":"Prototype experiences focused on audio agents.",
+        "description":"Specialized in the development of interactive experiences, focusing on sophisticated voice and audio interactions.",
         "des_bullets":[
          ]
       },
       {
         "company":"Magic Leap Inc., San Francisco, CA",
-        "title":"Lead User Interaction Engineer",
+        "title":"Lead AI User Interaction Engineer",
         "years":"2016 - 2020",
-        "description":"Interactive experiences and gaming with the use of computer vision and AI in mix reality.",
+        "description":"Engineered immersive, end-to-end mixed reality experiences by integrating advanced computer vision and artificial intelligence technologies.",
         "des_bullets":[
-             "Lead prototype development for future mixed reality",
-             "Develop prototypes for our deep learning team to test our algorithms",
-             "Train deep models to enhance interactions and experiences"
+             "Led prototype development for AI algorithm testing.",
+             "Released production API and SDK for developers.",
+             "Trained models to enhance user interactions."
+         ]
+      },
+      {
+        "company":"Be Close!",
+        "title":"Co-Founder, CTO",
+        "years":"2018-2020",
+        "description":"A mobile app that connects kids with family through real-time video and interactive games, fostering more meaningful interactions.",
+        "des_bullets":[
          ]
       },
        {
         "company":"Yahoo!",
         "title":"Software Engineer, San Francisco, CA",
         "years":"2015-2016",
-        "description":"Video team / android mobile development. Focused on live streaming algorithms.",
+        "description":"Led the video team in Android mobile development, specializing in live streaming algorithms.",
         "des_bullets":[
          ]
       },
@@ -157,16 +165,24 @@
         "level":"90%"
       },
       {
-        "name":"Blockchain / Web3 Tools",
-        "level":"80%"
-      },
-      {
         "name":"Node.js",
         "level":"90%"
       },
       {
         "name":"React / React Native",
+        "level":"85%"
+      },
+      {
+        "name":"Caffe / Tensor Flow / PyTorch",
         "level":"75%"
+      },
+      {
+        "name":"AWS",
+        "level":"85%"
+      },
+      {
+        "name":"Blockchain / Web3 Tools",
+        "level":"80%"
       },
       {
         "name":"Three.js / WebGL",
@@ -175,16 +191,13 @@
       {
         "name":"Arduino / Raspberry PI",
         "level":"80%"
-      },
-      {
-        "name":"Caffe / Tensor Flow",
-        "level":"25%"
       }
+      
     ],
     "languages":[
       {
         "name":"C++",
-        "level":"90%"
+        "level":"85%"
       },
       {
         "name":"C#",
@@ -194,18 +207,17 @@
         "name":"Typescript / JavaScript",
         "level":"95%"
       },
+      {
+        "name":"Python",
+        "level":"80%"
+      },
      {
         "name":"Solidity",
         "level":"65%"
       },
       {
-        "name":"Python",
-        "level":"80%"
-      },
-     
-      {
-        "name":"Move",
-        "level":"40%"
+        "name":"Swift",
+        "level":"60%"
       }
       
     ]
@@ -213,10 +225,28 @@
   "portfolio":{
     "projects": [
       {
+        "title":"Mentaport",
+        "category":"Crypto",
+        "image":"logo.png",
+        "url":"https://mentaport.com"
+      },
+      {
+        "title":"Ensembles",
+        "category":"Crypto",
+        "image":"ensemble.gif",
+        "image1":"ensemble/img3.jpg",
+        "image2":"ensemble/img.png",
+        "image3":"ensemble/img2.png",
+        "isVideo":true,
+        "video":"https://www.youtube.com/embed/YcGnUhkY9co",
+        "intro":"AR community building experience",
+        "info1":"During the ETHCC conference in Paris, we created an immersive AR community experience. This allowed users to contribute to a virtual sculpture using their phones. Participants could add pieces to the sculpture and mint these additions to continue building it. There were three different locations where people could contribute to three distinct sculptures."
+      },
+      {
         "title":"Stamps",
         "category":"Crypto",
         "image":"14.gif",
-        "url":"https://stamps.mentaport.xyz."
+        "url":"https://stamps.mentaport.xyz"
       },
       {
         "title":"Check Menta",
@@ -224,12 +254,12 @@
         "image":"13.png",
         "image1":"menta/img1.png",
         "image2":"menta/img2.png",
-        "image3":"menta/img3.png",
+       
         "isVideo":true,
-        "video":"https://www.youtube.com/embed/To9lmp1E37Q",
-        "intro":"Browse NFT collections and get insights in real time. Get immediate insights with ratings from A to F.",
-        "info1":"Menta verifies that the NFT collection site you are browsing matches across accounts. And it does not need, or log, data from individual users, devices, or wallets.",
-        "info2":"https://www.checkmenta.com"
+        "video":"https://player.vimeo.com/video/1075118226",
+        "intro":"Explore NFT collections with real-time insights and instant trust scores—rated from A to F",
+        "info1":"Menta is a Chrome extension that verifies whether the NFT collection site you're browsing matches trusted sources across accounts—helping you spot fraud before you engage. It does all of this without collecting or logging any personal data from users, devices, or wallets.",
+        "info2":"Open Source project: https://github.com/thinkmariale/menta_check"
       },
       {
         "title":"Renmant",
