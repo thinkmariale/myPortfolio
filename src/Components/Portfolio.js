@@ -29,8 +29,8 @@ class Portfolio extends Component {
     });
 
     return (
-      <Box bg={"#F9FDFD"}  p={20} textAlign="center">
-        <Text fontSize="4xl" fontWeight="bold">
+      <Box id="portfolio" bg={"#F9FDFD"}  p={20} textAlign="center">
+        <Text className="portfolio-h1">
           Check Out Some of My Works
         </Text>
         <Grid templateColumns="repeat(auto-fill, minmax(250px, 1fr))" gap={6}>

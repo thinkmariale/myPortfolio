@@ -7,8 +7,7 @@
     
     "bio":"A creative developer passionate about developing innovative ways to promote engagement using new technologies. Interactive storytelling and reactive installations can significantly impact people worldwide by showing them that magic is still among us.",
    
-
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage":"Contact me!",
     "email": "thinkmariale@gmail.com",
     "github":"https://github.com/thinkmariale",
     "backtop":"http://localhost:3000/#home",
@@ -18,7 +17,7 @@
       "state":"California"
     },
     "website": "https://thinkmariale.com",
-    "resumedownload":"https://thinkmariale.com/images/MariaMontenegroResume.pdf",
+    "resumedownload":"https://thinkmariale.com/images/MarialeResume.pdf",
     "social":[
       {
         "name":"twitter",
