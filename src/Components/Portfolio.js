@@ -1,55 +1,42 @@
-import React, { Component } from "react";
-import {
-  Link
-} from "react-router-dom";
 
+import React, { Component } from 'react';
+import { Box, Grid, Text, Image, Link } from '@chakra-ui/react';
 
-let id = 0;
 class Portfolio extends Component {
+
   render() {
     if (!this.props.data) return null;
-    const footer = this.props.data1;
-  
-    const projects = this.props.data.projects.map(function (projects) {
-      let projectImage = "images/portfolio/" + projects.image;
+
+    const projects = this.props.data.projects.map((project, index) => {
+      let projectImage = "images/portfolio/" + project.image;
 
       return (
-        <div key={id++} className="columns portfolio-item">
-          <div className="item-wrap">
-            <img alt={projects.title} src={projectImage} />
-            <div style={{ textAlign: "center" }}>
-              {projects.url ? 
-              <a href={projects.url} target="_blank" >{projects.title}</a>
-              :
-              (
-              <Link to={{pathname:`/${projects.title}`,  query:{ projects, footer }}} >{projects.title}</Link>
-              )
-              }       
-            </div>
-          </div>
-        </div>
+         <Grid item key={index} className="portfolio-item">
+          {/* Wrap the entire Box with Link */}
+          <Link
+            href={project.url ? project.url : `/projects/${index}`}
+            target={project.url ? "_blank" : "_self"}
+            isExternal={!!project.url} // Open in a new tab if there's a URL
+            _hover={{ textDecoration: 'none' }}
+          >
+            <Box borderRadius="md" overflow="hidden" boxShadow="md" bg={"white"}>
+              <Image alt={project.title} src={projectImage} />
+              <Text m={4} fontWeight="bold">{project.title}</Text>
+            </Box>
+          </Link>
+        </Grid>
       );
     });
 
     return (
-      <section id="portfolio">
-      
-          <div className="row">
-            <div className="twelve columns collapsed">
-              <h1>Check Out Some of My Works.</h1>
-
-              <div
-                id="portfolio-wrapper"
-                className="bgrid-quarters s-bgrid-thirds cf"
-              >
-                {projects}
-              </div>
-            </div>
-          </div>
-     
-      
-      </section>
-        
+      <Box bg={"#F9FDFD"}  p={20} textAlign="center">
+        <Text fontSize="4xl" fontWeight="bold">
+          Check Out Some of My Works
+        </Text>
+        <Grid templateColumns="repeat(auto-fill, minmax(250px, 1fr))" gap={6}>
+          {projects}
+        </Grid>
+      </Box>
     );
   }
 }

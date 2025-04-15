@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useEffect, useState } from "react";
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -6,25 +6,38 @@ import About from "./About";
 import Resume from "./Resume";
 import Portfolio from "./Portfolio";
 
-class Home extends Component {
-  render() {
+const Home = () => {
 
-    if (!this.props.data) return null;
+  const [data, setData] = useState(null);
 
-    return (
-        
-        <div className="App">
-        <Header data={this.props.data.main} />
-        
-        <Portfolio data={this.props.data.portfolio} data1={this.props.data.main}/>
-        <About data={this.props.data.main} />
-        <Resume data={this.props.data.resume} />
-        
-        <Footer data={this.props.data.main} />
-        </div>
-    );
+  useEffect(() => {
+    // Load the data from the JSON file (or replace with API call)
+    const fetchData = async () => {
+      if(data) return;
+      try {
+        const response = await fetch('/resumeData.json');
+        const data = await response.json();
+        setData(data || null);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+
+      }
     }
-    
+    fetchData();
+}, [data]);
+
+  if (!data) return null;
+  return (  
+    <div className="App">
+      <Header data={data.main} />
+      <Portfolio data={data.portfolio} data1={data.main}/>
+      <About data={data.main} />
+      <Resume data={data.resume} />
+      
+      <Footer data={data.main} />
+    </div>
+  );
 }    
 
 export default Home;

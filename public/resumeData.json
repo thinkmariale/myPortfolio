@@ -7,7 +7,7 @@
     
     "bio":"A creative developer passionate about developing innovative ways to promote engagement using new technologies. Interactive storytelling and reactive installations can significantly impact people worldwide by showing them that magic is still among us.",
    
-  
+
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "thinkmariale@gmail.com",
     "github":"https://github.com/thinkmariale",
@@ -20,11 +20,6 @@
     "website": "https://thinkmariale.com",
     "resumedownload":"https://thinkmariale.com/images/MariaMontenegroResume.pdf",
     "social":[
-      {
-        "name":"Vimeo",
-        "url":"https://vimeo.com/user11450827",
-        "className":"fa fa-vimeo-square"
-      },
       {
         "name":"twitter",
         "url":"https://twitter.com/thinkmariale",
@@ -228,140 +223,182 @@
         "title":"Mentaport",
         "category":"Crypto",
         "image":"logo.png",
+        "description":"todo",
         "url":"https://mentaport.com"
       },
       {
         "title":"Ensembles",
         "category":"Crypto",
+        "description":"An AR community building experience during ETHCC Paris 2023!",
         "image":"ensemble.gif",
-        "image1":"ensemble/img3.jpg",
-        "image2":"ensemble/img.png",
-        "image3":"ensemble/img2.png",
+        "introImages":[
+          "ensemble/img1.jpg",
+          "ensemble/img.png"
+        ],  
+        "subTitle":"User Flow",
+        "otherImages":[
+           "ensemble/img2.png"
+        ],
         "isVideo":true,
         "video":"https://www.youtube.com/embed/YcGnUhkY9co",
-        "intro":"AR community building experience",
-        "info1":"During the ETHCC conference in Paris, we created an immersive AR community experience. This allowed users to contribute to a virtual sculpture using their phones. Participants could add pieces to the sculpture and mint these additions to continue building it. There were three different locations where people could contribute to three distinct sculptures."
+        "text":[
+          "During the ETHCC conference in Paris, we created an immersive AR community experience. This allowed users to contribute to a virtual sculpture using their phones. Participants could add pieces to the sculpture and mint these additions to continue building it. There were three different locations where people could contribute to three distinct sculptures."
+        ]
       },
       {
         "title":"Stamps",
         "category":"Crypto",
         "image":"14.gif",
+        "description":"todo",
         "url":"https://stamps.mentaport.xyz"
       },
       {
-        "title":"Check Menta",
+        "title":"Checkmenta",
         "category":"Crypto",
+        "description":"Explore NFT collections with real-time insights and instant trust scores—rated from A to F",
         "image":"13.png",
-        "image1":"menta/img1.png",
-        "image2":"menta/img2.png",
-       
+        "introImages":[
+          "menta/img1.png",
+          "menta/img2.png"
+        ],
         "isVideo":true,
         "video":"https://player.vimeo.com/video/1075118226",
-        "intro":"Explore NFT collections with real-time insights and instant trust scores—rated from A to F",
-        "info1":"Menta is a Chrome extension that verifies whether the NFT collection site you're browsing matches trusted sources across accounts—helping you spot fraud before you engage. It does all of this without collecting or logging any personal data from users, devices, or wallets.",
-        "info2":"Open Source project: https://github.com/thinkmariale/menta_check"
-      },
+        "text":[
+          "Menta is a Chrome extension that verifies whether the NFT collection site you're browsing matches trusted sources across accounts—helping you spot fraud before you engage. It does all of this without collecting or logging any personal data from users, devices, or wallets.",
+         "Open Source project: https://github.com/thinkmariale/menta_check"
+        ]
+        },
       {
         "title":"Renmant",
         "category":"Mixed Reality Dinner",
         "image":"01.jpg",
-        "image1":"remnant/img1.jpeg",
-        "image2":"remnant/img2.jpeg",
-        "image3":"remnant/img3.jpeg",
-        "intro":"An Interactive Story told through Mixed Reality and food. The merging of the real and virtual worlds, is slowly changing how we work, how we play, and how we communicate.",
-        "info1":"Remnant was made in collaboration with a well known restaurant in Copenhagen, Denmark. We prepared an interactive experience and took it across the world. I was incharge of creating the mixed reality component of the experience. It was built on ARKit and it detedetected cting users inputs, movements and surroundings.",
-        "info2":"The overall idea of the game was that users had to plant their own crops, and hunt for their food to survive. As they did that on the app, the chefs would react and start bringing food to the tables depending on the state of the game."
+        "introImages":[
+          "remnant/img1.jpeg",
+          "remnant/img2.jpeg",
+          "remnant/img3.jpeg"
+        ],
+        "description":"An Interactive Story told through Mixed Reality and food. The merging of the real and virtual worlds, is slowly changing how we work, how we play, and how we communicate.",
+        "text":[
+          "Remnant was made in collaboration with a well known restaurant in Copenhagen, Denmark. We prepared an interactive experience and took it across the world. I was incharge of creating the mixed reality component of the experience. It was built on ARKit and it detedetected cting users inputs, movements and surroundings.",
+          "The overall idea of the game was that users had to plant their own crops, and hunt for their food to survive. As they did that on the app, the chefs would react and start bringing food to the tables depending on the state of the game."
+        ]
       },
       {
         "title":"Marioneta",
         "category":"Kinect Installation",
         "image":"02.png",
-        "image1":"marioneta/img1.png",
-        "image2":"marioneta/img2.png",
-        "image3":"marioneta/img3.png",
+        "introImages":[
+          "marioneta/img1.png",
+          "marioneta/img2.png",
+          "marioneta/img3.png"
+        ],
         "isVideo":true,
         "video":"https://www.youtube.com/embed/DKYC4Ey70Rk",
-        "intro":"A puppet gesture recognition and mirroring experience done using Microsoft Kinect v2. It was a project for the Pittsburgh Children's Museum and it is currently a permanently installation",
-        "info1":"Marioneta's main focus is to create an endless experience in which everything in the virtual world will react to the users actions as they become and impersonate a puppet. It was admitted into SXSW 2015 Film Festival.",
-        "info2":"I was the technical lead in this amazing project."
+        "description":"A puppet gesture recognition and mirroring experience done using Microsoft Kinect v2. It was a project for the Pittsburgh Children's Museum and it is currently a permanently installation",
+        "text":[
+          "Marioneta's main focus is to create an endless experience in which everything in the virtual world will react to the users actions as they become and impersonate a puppet. It was admitted into SXSW 2015 Film Festival.",
+          "I was the technical lead in this amazing project."
+        ]
       },
-     
       {
         "title":"Interactive Floors",
         "category":"OpenCV Installation",
         "image":"09.png",
-        "image1":"floor/img1.jpg",
-        "image2":"floor/img2.jpg",
-        "image3":"floor/img3.jpg",
-        "intro":"A set of interactive floor installation experiences done with Unity3D and OpenCV. They were done during my internship at Kinesis Studio and I was the technical lead for the project.",
-        "info1":"One of the experiences was an extension of a 'Pong Game', with 6 teams and a 25 feet tracking arena. The second experience was a 'social floor'. The floor would show you what you had in common with other participants. It was also a 25 feet tracking area and it hold up to 16 people.",
-        "info2":""
+        "introImages":[
+          "floor/img1.jpg",
+          "floor/img2.jpg",
+          "floor/img3.jpg"
+        ],
+        "description":"A set of interactive floor installation experiences done with Unity3D and OpenCV. They were done during my internship at Kinesis Studio and I was the technical lead for the project.",
+        "text":[
+          "One of the experiences was an extension of a 'Pong Game', with 6 teams and a 25 feet tracking arena. The second experience was a 'social floor'. The floor would show you what you had in common with other participants. It was also a 25 feet tracking area and it hold up to 16 people."
+        ],
+        "isVideo":true,
+        "video":"https://player.vimeo.com/video/106218476"
+
       },
       {
         "title":"Love Necklaces",
         "category":"Arduino Madness",
         "image":"04_.png",
-        "image1":"necklace/img1.jpeg",
-        "image2":"necklace/img2.jpeg",
-        "image3":"necklace/img3.jpeg",
-        "intro":"A fun Arduino project made in two weeks for Burning Man. Protytped the entire concept and build all the components.",
-        "info1":"All the necklaces talk to each other through a radio component and to a centralized installation. Users could send different color patterns and animatio to the other users by pressing the button on the necklace. The idea behind that was to be able to send messages across the playa to your loved ones even when you were away.",
-        "info2":"They ended up working very well, and people kept sending messages all the time! Only issue was power :)"
-      },
+        "introImages":[
+          "necklace/img1.jpeg",
+          "necklace/img2.jpeg",
+          "necklace/img3.jpeg"
+        ],
+        "description":"A fun Arduino project made in two weeks for Burning Man. Protytped the entire concept and build all the components.",
+        "text": [
+          "All the necklaces talk to each other through a radio component and to a centralized installation. Users could send different color patterns and animatio to the other users by pressing the button on the necklace. The idea behind that was to be able to send messages across the playa to your loved ones even when you were away.",
+          "They ended up working very well, and people kept sending messages all the time! Only issue was power :)"
+        ]
+        },
       {
         "title":"Palmistry Ball",
         "category":"Projection mapping / Leap Motion",
         "image":"05.png",
-        "image1":"palmistryBall/img1.png",
-        "image2":"palmistryBall/img2.jpg",
-        "image3":"palmistryBall/img3.png",
+        "introImages":[
+          "palmistryBall/img1.png",
+          "palmistryBall/img2.jpg",
+          "palmistryBall/img3.png"
+        ],
         "isVideo":true,
         "video":"https://player.vimeo.com/video/127358563?h=98b18a13eb",
-        "intro":"An interactive game that lives in your hand. Uses the Leap Motion controller for tracking and for creating 3D projection mapping to make the users hand the canvas.",
-        "info1":"Palmistry Ball was first developed in OpenFramewroks to get the projector and hand calibration done with the use of OpenCV. Once I was able to calibrate the hand to the projector, I decided to make it into a game. With this vision, I re factored the calibration code into Unity3D and developed the game in this same platform. For the calibration aspect of this project (the hardest for me), I first marked a place in my finger to use as guide.",
-        "info2":"Then, I would place the projector where I wanted it to go and place my hand under it. I would move the mouse courser to my finger. Click, and record the 3D point of Leap motion and the 2D point of the screen where the mouse cursor was at. This information was then passed into openCV to find the final position of the virtual camera in the scene and translate it there."
-      },
+        "description":"An interactive game that lives in your hand. Uses the Leap Motion controller for tracking and for creating 3D projection mapping to make the users hand the canvas.",
+        "text": [
+          "Palmistry Ball was first developed in OpenFramewroks to get the projector and hand calibration done with the use of OpenCV. Once I was able to calibrate the hand to the projector, I decided to make it into a game. With this vision, I re factored the calibration code into Unity3D and developed the game in this same platform. For the calibration aspect of this project (the hardest for me), I first marked a place in my finger to use as guide.",
+          "Then, I would place the projector where I wanted it to go and place my hand under it. I would move the mouse courser to my finger. Click, and record the 3D point of Leap motion and the 2D point of the screen where the mouse cursor was at. This information was then passed into openCV to find the final position of the virtual camera in the scene and translate it there."
+        ]},
       {
         "title":"Maze of Heart",
         "category":"Kinect Experimental game",
         "image":"06.png",
-        "image1":"mazeHeart/img1.png",
-        "image2":"mazeHeart/img2.png",
-        "image3":"mazeHeart/img3.png",
+        "introImages":[
+          "mazeHeart/img1.png",
+          "mazeHeart/img2.png",
+          "mazeHeart/img3.png"
+        ],
+      
         "isVideo":true,
         "video":"https://player.vimeo.com/video/78123680?h=ac728e6cbf",
-        "intro":"Help the robot put its heart pieces back together! By moving your body until you get the job done. A unique Microsoft Kinect based experience game featured in Experimental Games at GDC 2015.",
-        "info1":"This game was created with a focus on naive guests and indirect control. We were required to develop a game where even someone who is not experienced playing games could play easily with the Microsoft Kinect.",
-        "info2":"Maze of Heart consists of a robot that gets its heart broken in multiple pieces. The player's objective is to take all the heart pieces that are around the robot's body back to its heart. The player will get help from a mouse, a friend of the robot, by indicating the player in what part of the body the pieces are. This way the player will have to move its body in multiple ways to effectively take the pieces back to the heart."
-      },
+        "description":"Help the robot put its heart pieces back together! By moving your body until you get the job done. A unique Microsoft Kinect based experience game featured in Experimental Games at GDC 2015.",
+        "text": [
+          "This game was created with a focus on naive guests and indirect control. We were required to develop a game where even someone who is not experienced playing games could play easily with the Microsoft Kinect.",
+          "Maze of Heart consists of a robot that gets its heart broken in multiple pieces. The player's objective is to take all the heart pieces that are around the robot's body back to its heart. The player will get help from a mouse, a friend of the robot, by indicating the player in what part of the body the pieces are. This way the player will have to move its body in multiple ways to effectively take the pieces back to the heart."
+        ]
+        },
       {
         "title":"The Last Egg",
         "category":"Multiplayer game",
         "image":"08.jpg",
-        "image1":"lastEgg/img1.jpg",
-        "image2":"lastEgg/img2.jpg",
-        "image3":"lastEgg/img3.jpg",
-        "isVideo":true,
+        "introImages":[
+          "lastEgg/img1.jpg",
+          "lastEgg/img2.jpg",
+          "lastEgg/img3.jpg"
+        ],
+        "isVideo":false,
         "video":"https://player.vimeo.com/video/98692480?h=2532fc17f3",
-        "intro":"A digital playground game for two teams of 3 players that uses the PlayStation Move Motion Controllers. It was nominated at IndieCade 2014 as one of the 'Big Games' finalist.",
-        "info1":"The game consists of 3 rounds of 1 minute each. In which round both teams have to compete to get the 'last egg'. When the game starts, the 'last egg' randomly selects one PS Move and assigns a white light to it. This will indicate who was the egg.",
-        "info2":""
+        "description":"A digital playground game for two teams of 3 players that uses the PlayStation Move Motion Controllers. It was nominated at IndieCade 2014 as one of the 'Big Games' finalist.",
+        "text": [
+          "The game consists of 3 rounds of 1 minute each. In which round both teams have to compete to get the 'last egg'. When the game starts, the 'last egg' randomly selects one PS Move and assigns a white light to it. This will indicate who was the egg."
+        ]
       },
-      
       {
         "title":"Number Mission",
         "category":"Educational Kinect Game",
         "image":"11.png",
-        "image1":"number/img1.jpg",
-        "image2":"number/img2.jpg",
-        "image3":"number/img3.png",
+        "introImages": [
+          "number/img1.jpg",
+          "number/img2.jpg",
+          "number/img3.png"
+        ],
         "isVideo":true,
         "video":"https://player.vimeo.com/video/41059563?h=ccf9e566bb",
-        "intro":"An interactive learning math game done with the Microsoft Kinect. The game has a green theme that encourages recycling and awareness of environmental issues.",
-        "info1":"Number Mission is targeted for 7 to 12 year old children and it was specially made to promote learning in underdeveloped countries and economically challenged areas. A three month HCI research was done prior to the development of the game. It was focused on discovering the best ways to interact with the children. During development, play testing was done weekly with a local charter school to proof or disproof our implementations.",
-        "info2":"The game has three three difficulty levels and three mini games to help the kids improve and at the same time feel progress by discovering a new mini game after each level."
+        "description":"An interactive learning math game done with the Microsoft Kinect. The game has a green theme that encourages recycling and awareness of environmental issues.",
+        "text":[
+          "Number Mission is targeted for 7 to 12 year old children and it was specially made to promote learning in underdeveloped countries and economically challenged areas. A three month HCI research was done prior to the development of the game. It was focused on discovering the best ways to interact with the children. During development, play testing was done weekly with a local charter school to proof or disproof our implementations.",
+          "The game has three three difficulty levels and three mini games to help the kids improve and at the same time feel progress by discovering a new mini game after each level."
+        ]
       }
-      
 
     ]
   },"Others":{
