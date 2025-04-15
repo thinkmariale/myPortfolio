@@ -1,7 +1,9 @@
 
 import React, { Component } from 'react';
-import { Box, Grid, Text, Image, Link } from '@chakra-ui/react';
-
+import { Box, Grid, Text, Image } from '@chakra-ui/react';
+import {
+  Link
+} from "react-router-dom";
 class Portfolio extends Component {
 
   render() {
@@ -12,11 +14,9 @@ class Portfolio extends Component {
 
       return (
          <Grid item key={index} className="portfolio-item">
-          {/* Wrap the entire Box with Link */}
           <Link
-            href={project.url ? project.url : `/projects/${index}`}
-            target={project.url ? "_blank" : "_self"}
-            isExternal={!!project.url} // Open in a new tab if there's a URL
+            to={{pathname: project.url ? project.url : `/project/${index}` }} 
+            target={project.url ? "_blank" : "_self" }
             _hover={{ textDecoration: 'none' }}
           >
             <Box borderRadius="md" overflow="hidden" boxShadow="md" bg={"white"}>

@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState } from "react";
+import React, {  useEffect, useState } from "react";
 import {
   BrowserRouter as Router,
   Switch,
@@ -19,10 +19,8 @@ const App = () => {
 
   return (
     <Router>
-    {/* A <Switch> looks through its children <Route>s and
-        renders the first one that matches the current URL. */}
     <Switch>
-      <Route path="/projects/:id">
+      <Route path="/project/:id">
         <ProjectWithParams />
       </Route>
       <Route path="/">
@@ -43,7 +41,7 @@ const ProjectWithParams = () => {
     useEffect(() => {
       // Load the data from the JSON file (or replace with API call)
       const fetchData = async () => {
-  
+      
         try {
           const response = await fetch('/resumeData.json');
           const data = await response.json();

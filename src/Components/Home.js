@@ -31,7 +31,7 @@ const Home = () => {
   return (  
     <div className="App">
       <Header data={data.main} />
-      <Portfolio data={data.portfolio} data1={data.main}/>
+      <Portfolio data={data.portfolio}/>
       <About data={data.main} />
       <Resume data={data.resume} />
       

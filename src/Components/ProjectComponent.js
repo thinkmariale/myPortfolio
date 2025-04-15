@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 import { 
   Box,
-  Heading,
   Text,
   SimpleGrid,
   Image,
