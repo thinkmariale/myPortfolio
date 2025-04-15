@@ -1,64 +1,71 @@
-import React, { Component } from "react";
+import React, {  useEffect, useState } from "react";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
+  useParams
 } from "react-router-dom";
 
-import ReactGA from "react-ga";
-import $ from "jquery";
 import "./App.css";
 import Home from "./Components/Home";
-import Project from "./Components/Project";
+import Footer from "./Components/Footer";
+import Navigation from "./Components/Navigation";
 
+import ProjectComponent from "./Components/ProjectComponent";
+import { 
+  Spinner
+ } from "@chakra-ui/react"
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      foo: "bar",
-      resumeData: {}
-    };
-    //UA-110570651-1
-    ReactGA.initialize("");
-    ReactGA.pageview(window.location.pathname);
-  }
+const App = () => {
 
-  getResumeData() {
-    $.ajax({
-      url: "./resumeData.json",
-      dataType: "json",
-      cache: false,
-      success: function(data) {
-        this.setState({ resumeData: data });
-      }.bind(this),
-      error: function(xhr, status, err) {
-        console.log(err);
-        alert(err);
-      }
-    });
-  }
-
-  componentDidMount() {
-    this.getResumeData();
-  
-  }
-
-  render() {
-    return (
-      <Router>
-      {/* A <Switch> looks through its children <Route>s and
-          renders the first one that matches the current URL. */}
-      <Switch>
-        <Route path="/:handle">
-          <Project  />
-        </Route>
-        <Route path="/">
-          <Home data = {this.state.resumeData} />
-        </Route>
-      </Switch> 
-    </Router>
-    );
+  return (
+    <Router>
+    <Switch>
+      <Route path="/project/:id">
+        <ProjectWithParams />
+      </Route>
+      <Route path="/">
+        <Home  />
+      </Route>
+    </Switch> 
+  </Router>
+  );  
 }
-}
+
 export default App;
+
+const ProjectWithParams = () => {
+  const [projects, setProjects] = useState(null);
+  const [mainData, setMainData] = useState(null);
+
+  const { id } = useParams(); // Get the project ID from the URL
+    useEffect(() => {
+      // Load the data from the JSON file (or replace with API call)
+      const fetchData = async () => {
+        try {
+          const response = await fetch('/resumeData.json');
+          const data = await response.json();
+          console.log(data);
+          // Find the item by the given id   
+          setProjects(data.portfolio || null);
+          setMainData(data.main || null);
+        } catch (error) {
+          console.error('Error fetching data:', error);
+        } finally {
+          
+        }
+      };
+      fetchData();
+  }, [id]);
+
+  if (!projects) {
+    return <Spinner size="xl" />;
+  }
+
+  // Pass the project data to ProjectComponent
+  return  <>
+   <Navigation data={mainData} />
+    <ProjectComponent project={projects['projects'][id]} />;
+    <Footer data={mainData} />
+  </>
+};

@@ -23,12 +23,11 @@ class Footer extends Component {
               <ul className="social-links">{networks}</ul>
 
               <ul className="copyright">
-                <li>&copy; Copyright 2023 Think Mariale</li>
+                <li> © {new Date().getFullYear()} Think Mariale. All rights reserved. </li>
                 
               </ul>
             </div>
          
-
           <div id="go-top">
             <a className="smoothscroll" title="Back to Top" href={this.props.data.backtop}>
               <i className="icon-up-open"></i>
